@@ -1,9 +1,12 @@
 chromium-pepper-flash
 fasd-git
 liquidprompt-git
+neovim-git
+neovim-symlinks
 nodejs-jshint
+python2-trollius
+python2-neovim
 skype
 seafile-client
 termite
 ttf-font-icons
-neovim-git

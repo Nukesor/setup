@@ -1,3 +1,4 @@
+abs
 adobe-source-han-sans-tw-fonts
 aircrack-ng
 alsa-utils
@@ -11,8 +12,11 @@ cmake
 conky
 cryptsetup
 ctags
+dialog
 dmenu
+dmidecode
 dstat
+etckeeper
 evince
 feh
 firefox
@@ -25,13 +29,14 @@ glu
 gptfdisk
 gvim
 htop
-i3-wm
 i3lock
 i3status
+i3-wm
 iftop
 imagemagick
 keychain
 love
+lshw
 make
 mpc
 mpd
@@ -64,6 +69,7 @@ sudo
 terminus-font
 the_silver_searcher
 thunderbird
+tlp
 tmux
 tree
 ttf-dejavu
@@ -77,11 +83,9 @@ wget
 which
 whois
 wpa_supplicant
+xclip
 xf86-input-mouse
 xf86-input-synaptics
-xf86-video-ati
-xf86-video-intel
-xf86-video-nouveau
 xloadimage
 xorg-apps
 xorg-server
