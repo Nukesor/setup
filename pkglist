@@ -3,6 +3,7 @@ adobe-source-han-sans-tw-fonts
 aircrack-ng
 alsa-utils
 apvlv
+arandr
 base-devel
 boost
 bullet
@@ -12,6 +13,8 @@ cmake
 conky
 cryptsetup
 ctags
+darkhttpd
+devtools
 dialog
 dmenu
 dmidecode
@@ -49,6 +52,7 @@ nodejs
 ntfs-3g
 ntp
 openssh
+openvpn
 otf-ipafont
 p7zip
 parted
@@ -56,11 +60,18 @@ pcmanfm
 perl-rename
 pidgin
 pidgin-otr
+pkgbuild-introspection
 powertop
 python
+python-pip
 qalculate-gtk
+redshift
 rsync
 scrot
+sdl2
+sdl2_gfx
+sdl2_image
+sdl2_ttf
 sed
 sfml
 smartmontools
@@ -73,6 +84,7 @@ tlp
 tmux
 tree
 ttf-dejavu
+twine
 unrar
 unzip
 valgrind
