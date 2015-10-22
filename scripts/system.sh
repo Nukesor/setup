@@ -12,5 +12,15 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
+sudo cp -r files/etc/* /etc/
+sudo cp -r files/loader /boot/
+
+# Creating mkinitcpio
 mkinitcpio -p linux
+
+# Downloading zsh and setting it as default shell
+chsh -s /usr/bin/zsh
+# Adding and signing Haskell repository for pacman
+pacman -Syy
+pacman -S yaourt --noconfirm
 

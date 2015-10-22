@@ -5,7 +5,7 @@ default:
 efi-setup:
 	./scripts/efi-setup.sh
 
-install: basic boot-grub advanced install-pkg user
+install: install basic advanced install-pkg user
 
 basic:
 	./scripts/basic.sh
