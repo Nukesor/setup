@@ -1,1 +1,1 @@
-yaourt -Sy --noconfirm $(cat yaourt-pkg) 
+yaourt -Sya --devel --noconfirm --needed $(cat yaourt-pkg)

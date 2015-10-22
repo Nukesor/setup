@@ -15,3 +15,6 @@ system:
 
 user:
 	./scripts/user.sh
+
+yaourt:
+	./scripts/yaourt.sh
