@@ -5,22 +5,13 @@ default:
 efi-setup:
 	./scripts/efi-setup.sh
 
-install: install basic advanced install-pkg user
+install: install system user
 
-basic:
-	./scripts/basic.sh
-
-advanced:
-	./scripts/advanced.sh
-
-install-pkg:
+install:
 	./scripts/install.sh
 
-yaourt-pkg:
-	./scripts/yaourt.sh
+system:
+	./scripts/system.sh
 
 user:
 	./scripts/user.sh
-
-
-
