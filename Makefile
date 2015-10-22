@@ -2,6 +2,11 @@
 
 default:
 
+efi-setup:
+	./scripts/efi-setup.sh
+
+install: basic boot-grub advanced install-pkg user
+
 basic:
 	./scripts/basic.sh
 
@@ -17,13 +22,5 @@ yaourt-pkg:
 user:
 	./scripts/user.sh
 
-everything-grub: basic boot-grub advanced install-pkg user
 
-efi-setup:
-	./scripts/efi-partition.sh
-	./scripts/efi-format-mount.sh
-	./scripts/basic-install.sh
-
-efi-setup: HD-setup basic-install
-bios-setup
 
