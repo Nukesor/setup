@@ -5,9 +5,6 @@ default:
 basic:
 	./scripts/basic.sh
 
-boot-grub:
-	./scripts/grub.sh
-	
 advanced:
 	./scripts/advanced.sh
 
@@ -20,14 +17,13 @@ yaourt-pkg:
 user:
 	./scripts/user.sh
 
-everything-grub: basic boot-grub advanced install-pkg user	
+everything-grub: basic boot-grub advanced install-pkg user
 
-HD-setup:
-	./scripts/grub-partition.sh
-	./scripts/hd-setup.sh
-
-basic-install:
+efi-setup:
+	./scripts/efi-partition.sh
+	./scripts/efi-format-mount.sh
 	./scripts/basic-install.sh
 
-setup: HD-setup basic-install
+efi-setup: HD-setup basic-install
+bios-setup
 
