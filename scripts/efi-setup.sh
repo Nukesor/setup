@@ -34,7 +34,7 @@ cryptsetup open $partition cryptroot
 echo "y
 "|mkfs.ext4 /dev/mapper/cryptroot
 echo "y
-"|mkfs.ext4 $boot
+"|mkfs..msdos -F 32 $boot
 
 #Mounting
 mount /dev/mapper/cryptroot /mnt

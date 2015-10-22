@@ -18,6 +18,8 @@ sudo cp -r files/loader /boot/
 # Creating mkinitcpio
 mkinitcpio -p linux
 
+bootctl --path=/boot install
+
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 # Adding and signing Haskell repository for pacman

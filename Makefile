@@ -5,9 +5,9 @@ default:
 efi-setup:
 	./scripts/efi-setup.sh
 
-install: install system user
+install: install-pkg system user
 
-install:
+install-pkg:
 	./scripts/install.sh
 
 system:
