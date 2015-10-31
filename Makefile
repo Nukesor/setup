@@ -3,18 +3,18 @@
 default:
 
 partition:
-	./scripts/partition.sh
+	./outside/partition.sh
 
 format:
-	./scripts/partition.sh
+	./outside/partition.sh
 
 install: install-pkg system user
 
 install-pkg:
-	./scripts/install.sh
+	./inside/install.sh
 
 system:
-	./scripts/system.sh
+	./inside/system.sh
 
 user:
-	./scripts/user.sh
+	./inside/user.sh
