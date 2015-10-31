@@ -18,6 +18,7 @@ devtools
 dialog
 dmenu
 dmidecode
+dosfstools
 dstat
 etckeeper
 evince

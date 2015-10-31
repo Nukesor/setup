@@ -2,8 +2,11 @@
 
 default:
 
-efi-setup:
-	./scripts/efi-setup.sh
+partition:
+	./scripts/partition.sh
+
+format:
+	./scripts/partition.sh
 
 install: install-pkg system user
 
@@ -15,6 +18,3 @@ system:
 
 user:
 	./scripts/user.sh
-
-yaourt:
-	./scripts/yaourt.sh
