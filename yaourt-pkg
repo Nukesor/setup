@@ -4,7 +4,6 @@ liquidprompt-git
 neovim-git
 neovim-symlinks
 nodejs-jshint
-python2-trollius
 python2-neovim
 skype
 seafile-client
