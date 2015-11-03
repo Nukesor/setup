@@ -52,6 +52,7 @@ mpv
 mtr
 mumble
 ncmpcpp
+neovim
 nmap
 nodejs
 ntfs-3g
@@ -68,6 +69,8 @@ pidgin-otr
 pkgbuild-introspection
 powertop
 python
+python2-neovim
+python-neovim
 python-pip
 qalculate-gtk
 redshift
