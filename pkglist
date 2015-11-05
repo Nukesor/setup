@@ -104,6 +104,8 @@ which
 whois
 wpa_supplicant
 xclip
+xf86-input-joystick
+xf86-input-keyboard
 xf86-input-mouse
 xf86-input-synaptics
 xloadimage
