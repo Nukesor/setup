@@ -21,7 +21,7 @@ install:
 	./outside/install.sh
 
 
-efi: copy install-pkg efi system user
+efi: copy efi install-pkg system user
 
 grub: copy install-pkg grub system user
 
@@ -36,3 +36,9 @@ system:
 
 user:
 	./inside/user.sh
+
+grub:
+	./inside/grub.sh
+
+efi:
+	./inside/efi.sh

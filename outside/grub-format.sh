@@ -11,3 +11,5 @@ mount ${hdd}3 /mnt
 mkdir /mnt/boot
 mount ${hdd}2 /mnt/boot
 
+mkdir -p /mnt/run
+mkdir -p /mnt/run/shm
