@@ -8,8 +8,8 @@ This is a collection of scripts for setting up an Arch Linux instance.
 2. Make sure there is an gpt on your device
 3. `make partition`
 4. Execute following Code to create an cryptdevice and open it
-        cryptsetup -y -v luksFormat $partition
-        cryptsetup open $partition $crypt
+        cryptsetup -y -v luksFormat $root
+        cryptsetup open $root $name
 5. `make format`
 6. Chroot in /mnt. Copy the setup directory to mnt before you chroot into it.
 

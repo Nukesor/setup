@@ -5,12 +5,12 @@ source ./config.sh
 
 # Filesystem
 echo "y
-"|mkfs.ext4 /dev/mapper/$crypt
+"|mkfs.ext4 $root
 echo "y
-"|mkfs.msdos -F 32 $boot $crypt
+"|mkfs.msdos -F 32 $boot
 
 #Mounting
-mount /dev/mapper/$crypt /mnt
+mount $root /mnt
 mkdir /mnt/boot
 mount $boot /mnt/boot
 

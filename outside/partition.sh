@@ -3,10 +3,6 @@
 # Getting Variables
 source ./config.sh
 
-# Variables
-boot=$hdd"1"
-partition=$hdd"2"
-
 # Formatting
 echo "o
 y
@@ -22,7 +18,7 @@ n
 
 c
 2
-$crypt
+$label
 w
 y
 "|sudo gdisk $hdd;
