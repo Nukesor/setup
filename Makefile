@@ -11,7 +11,16 @@ partition:
 format:
 	./outside/format.sh
 
-install: copy install-pkg system user
+grub-partition:
+	./outside/grub-partition.sh
+
+grub-format:
+	./outside/grub-format.sh
+
+
+efi: copy install-pkg efi system user
+
+grub: copy install-pkg grub system user
 
 copy:
 	./inside/copy.sh
