@@ -2,6 +2,9 @@
 
 default:
 
+prerequisite:
+	./outside/prerequisite.sh
+
 partition:
 	./outside/partition.sh
 
