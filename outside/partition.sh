@@ -21,5 +21,5 @@ c
 $label
 w
 y
-"|sudo gdisk $hdd;
+"| gdisk $hdd;
 

@@ -12,8 +12,8 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
-sudo cp -r files/etc/* /etc/
-sudo cp -r files/loader /boot/
+cp -r files/etc/* /etc/
+cp -r files/loader /boot/
 
 # Creating mkinitcpio
 mkinitcpio -p linux

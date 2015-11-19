@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pacman -Sy --noconfirm --needed make git gptf dosfstools gptfdisk base-devel
+pacman -Sy --noconfirm --needed make git dosfstools gptfdisk base-devel

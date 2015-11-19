@@ -9,7 +9,7 @@ partition:
 	./outside/partition.sh
 
 format:
-	./outside/partition.sh
+	./outside/format.sh
 
 install: install-pkg system user
 
