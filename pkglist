@@ -27,6 +27,7 @@ etckeeper
 evince
 feh
 firefox
+flashplugin
 gcc
 gdb
 gimp
@@ -85,6 +86,7 @@ sdl2_ttf
 sed
 sfml
 smartmontools
+steam
 stow
 sudo
 terminus-font

@@ -26,6 +26,5 @@ systemctl enable tlp.service
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 # Adding and signing Haskell repository for pacman
-pacman -Syy
-pacman -S yaourt --noconfirm
+pacman -Syy yaourt --noconfirm --needed
 
