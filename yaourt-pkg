@@ -3,6 +3,8 @@ fasd-git
 liquidprompt-git
 neovim-symlinks
 nodejs-jshint
+python-autopep8
+tidy-html5
 skype
 seafile-client
 termite
