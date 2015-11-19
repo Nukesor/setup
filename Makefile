@@ -11,7 +11,10 @@ partition:
 format:
 	./outside/format.sh
 
-install: install-pkg system user
+install: copy install-pkg system user
+
+copy:
+	./inside/copy.sh
 
 install-pkg:
 	./inside/install.sh
