@@ -17,6 +17,9 @@ grub-partition:
 grub-format:
 	./outside/grub-format.sh
 
+install:
+	./outside/install.sh
+
 
 efi: copy install-pkg efi system user
 

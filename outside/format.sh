@@ -17,7 +17,3 @@ mount $boot /mnt/boot
 mkdir -p /mnt/run
 mkdir -p /mnt/run/shm
 
-# Basic install
-pacstrap /mnt base
-genfstab -p /mnt >> /mnt/etc/fstab
-
