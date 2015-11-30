@@ -38,6 +38,7 @@ iftop
 imagemagick
 keychain
 libreoffice-fresh
+libstdc++5
 love
 lshw
 lsof
