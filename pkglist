@@ -15,6 +15,7 @@ cmake
 conky
 cryptsetup
 ctags
+cups
 darkhttpd
 deluge
 devtools
@@ -27,9 +28,12 @@ firefox
 flashplugin
 gcc
 gdb
+ghostscript
 gimp
 git
 gptfdisk
+gsfonts
+gutenprint
 htop
 i3lock
 i3status
