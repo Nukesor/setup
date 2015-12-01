@@ -8,6 +8,7 @@ nodejs-jshint
 python2-watchdog
 pueue-git
 python-autopep8
+python2-autopep8
 seafile-client
 skype
 termite
