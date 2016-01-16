@@ -13,6 +13,7 @@ chromium
 clang
 cloc
 cmake
+cmatrix
 conky
 cryptsetup
 ctags
@@ -25,13 +26,16 @@ dmenu
 dosfstools
 dstat
 evince
+filezilla
 firefox
 flashplugin
+fuse
 gcc
 gdb
 ghostscript
 gimp
 git
+gnu-netcat
 gptfdisk
 gsfonts
 gutenprint
@@ -52,6 +56,7 @@ make
 mpc
 mpd
 mpv
+mtpfs
 mtr
 mumble
 ncmpcpp
@@ -92,6 +97,7 @@ sed
 sfml
 smartmontools
 soundconverter
+sshfs
 steam
 stow
 sudo
@@ -126,4 +132,5 @@ xorg-server-utils
 xorg-xinit
 xterm
 zip
+zmap
 zsh
