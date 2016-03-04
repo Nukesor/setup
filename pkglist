@@ -28,6 +28,7 @@ dmenu
 dosfstools
 dstat
 evince
+feh
 filezilla
 firefox
 flashplugin
@@ -41,12 +42,14 @@ gnu-netcat
 gptfdisk
 gsfonts
 gutenprint
+haveged
 htop
 i3lock
 i3status
 i3-wm
 iftop
 imagemagick
+kdenlive
 keychain
 libreoffice-fresh
 libstdc++5
@@ -54,6 +57,7 @@ love
 lshw
 lsof
 luarocks
+maim
 make
 mpc
 mpd
@@ -123,6 +127,7 @@ which
 whois
 wpa_supplicant
 xclip
+xdotool
 xf86-input-joystick
 xf86-input-keyboard
 xf86-input-mouse
