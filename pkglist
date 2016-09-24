@@ -33,6 +33,7 @@ filezilla
 firefox
 flashplugin
 fuse
+fzf
 gcc
 gdb
 ghostscript
@@ -59,6 +60,7 @@ lsof
 luarocks
 maim
 make
+mediainfo
 mpc
 mpd
 mpv
@@ -67,6 +69,7 @@ mtr
 mumble
 ncmpcpp
 neovim
+net-tools
 nmap
 nodejs
 nopaste
@@ -126,6 +129,7 @@ wget
 which
 whois
 wpa_supplicant
+x265
 xclip
 xdotool
 xf86-input-joystick
