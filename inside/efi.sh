@@ -9,5 +9,5 @@ cp -r files/loader /boot/
 cp -r files/mkinitcpio.conf.efi /etc/mkinitcpio.conf
 
 if $crypt; then
-    echo "options		cryptdevice=PARTLABEL=$label:$label root=$root quiet rw" >> /boot/loader/entries/arch.conf
+    echo "options		cryptdevice=PARTLABEL=$label:$cryptname root=$root quiet rw" >> /boot/loader/entries/arch.conf
 fi
