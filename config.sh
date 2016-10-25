@@ -1,8 +1,13 @@
 #!/bin/bash
 
 export hdd=/dev/sdb
-export label=usbroot
-export bootlabel=usbboot
+export label=desktoproot
+export bootlabel=desktopboot
 export boot=${hdd}1
 export root=${hdd}2
-#export root=/dev/mapper/$crypt
+export crypt=true
+
+if $crypt; then
+    export cryptname=cryptroot
+    export root=/dev/mapper/$cryptname
+fi

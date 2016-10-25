@@ -6,6 +6,7 @@ ansible
 apvlv
 arandr
 astyle
+autopep8
 base-devel
 boost
 bullet
@@ -36,14 +37,12 @@ fuse
 fzf
 gcc
 gdb
-ghostscript
 gimp
 git
 gnu-netcat
 gptfdisk
 gsfonts
 gutenprint
-haveged
 htop
 i3lock
 i3status
@@ -71,8 +70,6 @@ ncmpcpp
 neovim
 net-tools
 nmap
-nodejs
-nopaste
 ntfs-3g
 ntp
 openssh
@@ -82,7 +79,6 @@ p7zip
 parted
 pavucontrol
 pcmanfm
-pcsc-tools
 perf
 perl-rename
 pidgin
@@ -98,10 +94,6 @@ qalculate-gtk
 redshift
 rsync
 scrot
-sdl2
-sdl2_gfx
-sdl2_image
-sdl2_ttf
 sed
 sfml
 smartmontools
@@ -143,5 +135,4 @@ xorg-server-utils
 xorg-xinit
 xterm
 zip
-zmap
 zsh

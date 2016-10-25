@@ -2,11 +2,18 @@
 
 default:
 
+outside-efi: prerequisite partition format install
+crypt-efi: prerequisite partition encrypt install
+outside-grub: prerequisite grub-partition grub-format install
+
 prerequisite:
 	./outside/prerequisite.sh
 
 partition:
 	./outside/partition.sh
+
+encrypt:
+	./outside/encrypt.sh
 
 format:
 	./outside/format.sh

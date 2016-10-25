@@ -16,4 +16,3 @@ mount $boot /mnt/boot
 
 mkdir -p /mnt/run
 mkdir -p /mnt/run/shm
-

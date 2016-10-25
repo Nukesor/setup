@@ -4,30 +4,24 @@
 source ./config.sh
 
 # Formatting
-for file in $(ls /dev/sd*) ; do
-
 echo "o
 y
 n
 
 
-+2M
-ef02
++400M
+ef00
 n
 
 
-+200M
-
-n
 
 
-+2M
-fd00
 c
 1
-bootpartition
+$bootlabel
+c
+2
+$label
 w
 y
-"| gdisk $file;
-
-done
+"| gdisk $hdd;

@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Setzen der Lokalzeit
+# Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
-# Setzen des encodings
+# General encoding stuff
 echo "en_US.UTF.8 UTF-8" > /etc/locale.gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 locale-gen
 
-# Setzen der Keymap
+# Keymaps
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
-# Creating mkinitcpio
+# mkinitcpio creation
 mkinitcpio -p linux
 
 bootctl --path=/boot install
@@ -22,6 +22,5 @@ systemctl enable tlp.service
 
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
-# Adding and signing Haskell repository for pacman
+# Add yaourt
 pacman -Syy yaourt --noconfirm --needed
-
