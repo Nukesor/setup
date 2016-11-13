@@ -30,6 +30,7 @@ dosfstools
 dstat
 easy-rsa
 evince
+fabric
 feh
 filezilla
 firefox
@@ -52,7 +53,6 @@ iftop
 imagemagick
 kdenlive
 keychain
-libreoffice-fresh
 libstdc++5
 love
 lshw
@@ -63,6 +63,7 @@ make
 mediainfo
 mpc
 mpd
+mplayer
 mpv
 mtpfs
 mtr
@@ -91,6 +92,7 @@ python
 python2-neovim
 python-neovim
 python-pip
+python-virtualenv
 qalculate-gtk
 redshift
 rsync
