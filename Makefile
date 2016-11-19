@@ -1,4 +1,4 @@
-.PHONY: basic default boot-grub boot-efi advanced install-pkg user setup HD-setup basic-install
+.PHONY: prerequisite partition format grub-partition grub-format install efi-partition grub-partition copy install-pkg system user grub efi
 
 default:
 
@@ -27,10 +27,9 @@ grub-format:
 install:
 	./outside/install.sh
 
+grub-setup: prerequisite grub-partition grub-format install
 
-efi: copy efi install-pkg system user
-
-grub: copy install-pkg grub system user
+efi-setup: prerequisite partition format install
 
 copy:
 	./inside/copy.sh
@@ -49,3 +48,7 @@ grub:
 
 efi:
 	./inside/efi.sh
+
+efi: copy efi install-pkg system user
+
+grub: copy install-pkg grub system user
