@@ -27,6 +27,7 @@ dfc
 dialog
 dmenu
 dosfstools
+dsniff
 dstat
 easy-rsa
 evince
@@ -54,6 +55,7 @@ imagemagick
 kdenlive
 keychain
 libstdc++5
+lm_sensors
 love
 lshw
 lsof
@@ -140,3 +142,4 @@ xorg-xinit
 xterm
 zip
 zsh
+zsh-completions
