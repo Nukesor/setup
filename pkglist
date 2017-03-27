@@ -9,7 +9,6 @@ astyle
 autopep8
 base-devel
 boost
-bullet
 chromium
 clang
 cloc
@@ -60,7 +59,6 @@ love
 lshw
 lsof
 luarocks
-maim
 make
 mediainfo
 mpc
@@ -78,15 +76,12 @@ ntfs-3g
 ntp
 openssh
 openvpn
-otf-ipafont
 p7zip
 parted
 pavucontrol
 pcmanfm
 perf
 perl-rename
-pidgin
-pidgin-otr
 pkgbuild-introspection
 powertop
 pulseaudio
@@ -96,11 +91,11 @@ python-neovim
 python-pip
 python-virtualenv
 qalculate-gtk
-redshift
 rsync
+rustfmt
+rustup
 scrot
 sed
-sfml
 smartmontools
 soundconverter
 sshfs
