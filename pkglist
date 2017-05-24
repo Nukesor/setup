@@ -1,4 +1,3 @@
-abs
 adobe-source-han-sans-tw-fonts
 aircrack-ng
 alsa-utils
@@ -15,6 +14,7 @@ cloc
 cmake
 cmatrix
 colordiff
+composer
 conky
 cryptsetup
 ctags
@@ -25,6 +25,8 @@ devtools
 dfc
 dialog
 dmenu
+docker
+docker-compose
 dosfstools
 dsniff
 dstat
@@ -37,13 +39,13 @@ firefox
 flashplugin
 fuse
 fzf
-gcc
 gdb
 gimp
 git
 gnu-netcat
 gptfdisk
 gsfonts
+gtk3-print-backends
 gutenprint
 htop
 i3lock
@@ -53,6 +55,7 @@ iftop
 imagemagick
 kdenlive
 keychain
+libcups
 libstdc++5
 lm_sensors
 love
@@ -87,8 +90,10 @@ powertop
 pulseaudio
 python
 python2-neovim
+python-matplotlib
 python-neovim
 python-pip
+python-scikit-learn
 python-virtualenv
 qalculate-gtk
 rsync
@@ -125,14 +130,12 @@ wpa_supplicant
 x265
 xclip
 xdotool
-xf86-input-joystick
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-synaptics
 xloadimage
 xorg-apps
 xorg-server
-xorg-server-utils
 xorg-xinit
 xterm
 zip
