@@ -12,15 +12,11 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
-# mkinitcpio creation
-mkinitcpio -p linux
-
-bootctl --path=/boot install
-
+# Services
 systemctl enable ntpd.service
-systemctl enable tlp.service
 
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
+
 # Add yaourt
 pacman -Syy yaourt --noconfirm --needed

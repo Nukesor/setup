@@ -1,3 +1,4 @@
+acpi
 adobe-source-han-sans-tw-fonts
 aircrack-ng
 alsa-utils
@@ -86,6 +87,7 @@ pcmanfm
 perf
 perl-rename
 pkgbuild-introspection
+postgresql
 powertop
 pulseaudio
 python
@@ -111,9 +113,7 @@ sudo
 terminus-font
 the_silver_searcher
 thunderbird
-tlp
 tmux
-tp_smapi
 tree
 ttf-dejavu
 twine

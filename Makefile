@@ -2,8 +2,8 @@
 
 default:
 
+# Stuff to do outside the installation (rescue-cd)
 outside-efi: prerequisite partition format install
-crypt-efi: prerequisite partition encrypt install
 outside-grub: prerequisite grub-partition grub-format install
 
 prerequisite:
@@ -11,9 +11,6 @@ prerequisite:
 
 partition:
 	./outside/partition.sh
-
-encrypt:
-	./outside/encrypt.sh
 
 format:
 	./outside/format.sh
@@ -27,9 +24,10 @@ grub-format:
 install:
 	./outside/install.sh
 
-grub-setup: prerequisite grub-partition grub-format install
 
-efi-setup: prerequisite partition format install
+# Stuff to do inside the installation (arch-chroot)
+efi: copy efi install-pkg system user
+grub: copy install-pkg grub system user
 
 copy:
 	./inside/copy.sh
@@ -48,7 +46,3 @@ grub:
 
 efi:
 	./inside/efi.sh
-
-efi: copy efi install-pkg system user
-
-grub: copy install-pkg grub system user
