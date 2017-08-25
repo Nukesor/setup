@@ -12,11 +12,27 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
-# Services
-systemctl enable ntpd.service
-
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 
 # Add yaourt
 pacman -Syy yaourt --noconfirm --needed
+
+# Rust
+rustup default nightly
+
+# Docker setup
+tee /etc/modules-load.d/loop.conf <<< "loop"
+
+# Mysql setup
+pacman -S mariadb
+mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
+# Postgresql  setup
+pacman -S postgresql
+initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+
+# Services
+systemctl enable ntpd.service
+systemctl enable mysqld.service
+systemctl enable postgresql.service

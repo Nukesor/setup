@@ -46,3 +46,8 @@ grub:
 
 efi:
 	./inside/efi.sh
+
+
+# Stuff to do after the first boot
+after:
+	./inside/first-boot.sh

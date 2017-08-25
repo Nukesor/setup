@@ -64,7 +64,9 @@ lshw
 lsof
 luarocks
 make
+mariadb
 mediainfo
+mono
 mpc
 mpd
 mplayer

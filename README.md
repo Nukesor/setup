@@ -10,3 +10,4 @@ This is a collection of scripts for setting up an Arch Linux instance.
     Make sure you use EFI boot, if you want to setup a system using EFI.  
 4. `arch-chroot` into the installation.
 5. Execute either `make efi` or `make grub` depending on the previous choice.
+
