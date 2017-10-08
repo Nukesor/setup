@@ -16,7 +16,6 @@ cmake
 cmatrix
 colordiff
 composer
-conky
 cryptsetup
 ctags
 cups
@@ -33,6 +32,7 @@ dsniff
 dstat
 easy-rsa
 evince
+exfat-utils
 fabric
 feh
 filezilla
@@ -43,6 +43,7 @@ fzf
 gdb
 gimp
 git
+gmpc
 gnu-netcat
 gptfdisk
 gsfonts
@@ -57,6 +58,8 @@ imagemagick
 kdenlive
 keychain
 libcups
+libgit2
+libreoffice-fresh
 libstdc++5
 lm_sensors
 love
@@ -140,6 +143,7 @@ xorg-apps
 xorg-server
 xorg-xinit
 xterm
+youtube-dl
 zip
 zsh
 zsh-completions

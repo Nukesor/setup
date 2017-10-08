@@ -1,8 +1,10 @@
 create_ap
 fasd
+firefox-beta-bin
 google-chrome
 liquidprompt-git
 neovim-symlinks
+pgcli
 pueue-git
 py3status
 py3status-modules
