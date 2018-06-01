@@ -1,3 +1,7 @@
+#!/bin/bash
+
+source ./config.sh
+
 if $server; then
 
     mkdir -p /root/.ssh
