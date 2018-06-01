@@ -26,8 +26,8 @@ install:
 
 
 # Stuff to do inside the installation (arch-chroot)
-efi: copy efi install-pkg system user
-grub: copy install-pkg grub system user
+efi: copy efi install-pkg system user yay ssh
+grub: copy install-pkg grub system user yay ssh
 
 copy:
 	./inside/copy.sh
@@ -47,6 +47,11 @@ grub:
 efi:
 	./inside/efi.sh
 
+yay:
+	./inside/yay.sh
+
+ssh:
+	./inside/ssh.sh
 
 # Stuff to do after the first boot
 after:

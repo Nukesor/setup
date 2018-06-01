@@ -17,12 +17,6 @@ echo "FONT=ter-112n" >> /etc/vconsole.conf
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 
-# Add yay
-git clone https://aur.archlinux.org/yay.git /tmp/yay
-cd /tmp/yay
-makepkg
-pacman -U *.tar.xz --noconfirm
-
 # Rust
 rustup default nightly
 
@@ -34,11 +28,11 @@ systemctl enable ntpd.service
 
 if $databases; then
     # Mysql setup
-    pacman -S mariadb
+    pacman -S mariadb --noconfirm
     mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 
     # Postgresql  setup
-    pacman -S postgresql
+    pacman -S postgresql --noconfirm
     initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
 
     systemctl enable mysqld.service

@@ -3,7 +3,7 @@
 # Getting Variables
 source ./config.sh
 
-pacman -S intel-ucode
+pacman -S intel-ucode --noconfirm
 bootctl --path=/boot install
 cp -r files/loader /boot/
 

@@ -18,4 +18,4 @@ fi
 
 # Inside config
 export databases=false
-export databases=false
+export server=false
