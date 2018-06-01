@@ -3,7 +3,7 @@
 pacmanroot=/tmp/root
 pacmancache=/tmp/chache
 
-export hdd=/dev/nume0n1
+export hdd=/dev/nvme0n1
 export rootlabel=root
 export bootlabel=boot
 export boot=${hdd}1

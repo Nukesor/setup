@@ -3,7 +3,7 @@
 source ./config.sh
 
 # Install requirements to ram, as we might not have a writable fs.
-mkdir -p $pacmanroot
+mkdir -p $pacmanroot/var/lib/pacman
 mkdir -p $pacmancache
 
-pacman --cachedir $pacmancache --root $pacmanroot -Sy --noconfirm --needed make git dosfstools gptfdisk base-devel
+pacman --cachedir $pacmancache --sysroot $pacmanroot -Sy --noconfirm --needed make dosfstools gptfdisk base-devel
