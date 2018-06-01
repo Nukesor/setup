@@ -21,6 +21,7 @@ cython
 deluge
 devtools
 dfc
+dialog
 diff-so-fancy
 dmenu
 docker

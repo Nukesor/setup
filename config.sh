@@ -19,3 +19,4 @@ fi
 # Inside config
 export databases=false
 export server=false
+export hostname=contamination

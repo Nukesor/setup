@@ -23,6 +23,8 @@ rustup default nightly
 # Docker setup
 tee /etc/modules-load.d/loop.conf <<< "loop"
 
+echo $hostname > /etc/hostname
+
 # Services
 systemctl enable ntpd.service
 
