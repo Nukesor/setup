@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ./config.sh
+
 # Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
@@ -15,8 +17,11 @@ echo "FONT=ter-112n" >> /etc/vconsole.conf
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 
-# Add yaourt
-pacman -Syy yaourt --noconfirm --needed
+# Add yay
+git clone https://aur.archlinux.org/yay.git /tmp/yay
+cd /tmp/yay
+makepkg
+pacman -U *.tar.xz --noconfirm
 
 # Rust
 rustup default nightly
@@ -24,15 +29,18 @@ rustup default nightly
 # Docker setup
 tee /etc/modules-load.d/loop.conf <<< "loop"
 
-# Mysql setup
-pacman -S mariadb
-mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-
-# Postgresql  setup
-pacman -S postgresql
-initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
-
 # Services
 systemctl enable ntpd.service
-systemctl enable mysqld.service
-systemctl enable postgresql.service
+
+if $databases; then
+    # Mysql setup
+    pacman -S mariadb
+    mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
+    # Postgresql  setup
+    pacman -S postgresql
+    initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+
+    systemctl enable mysqld.service
+    systemctl enable postgresql.service
+fi

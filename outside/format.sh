@@ -15,9 +15,9 @@ echo "y
 echo "y
 "|mkfs.msdos -F 32 $boot
 
-
 #Mounting
 mount $root /mnt
+mkdir -p /mnt/boot
 mount $boot /mnt/boot
 
 # Create required directories

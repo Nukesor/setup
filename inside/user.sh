@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Getting Variables
+source ./config.sh
+
 # Create home dir
 mkdir -p /home/nuke
 

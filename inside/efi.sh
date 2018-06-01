@@ -10,7 +10,7 @@ cp -r files/mkinitcpio.conf.efi /etc/mkinitcpio.conf
 
 # Set cryptdevice for boot
 if $crypt; then
-    echo "options		cryptdevice=PARTLABEL=$label:$cryptname root=$root quiet rw" >> /boot/loader/entries/arch.conf
+    echo "options		cryptdevice=PARTLABEL=$label:$cryptname:allow-discards root=$root quiet rw" >> /boot/loader/entries/arch.conf
 fi
 
 # mkinitcpio creation
