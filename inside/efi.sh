@@ -16,6 +16,8 @@ fi
 # Set cryptdevice for boot
 if $crypt; then
     echo "options		cryptdevice=PARTLABEL=$label:$cryptname:allow-discards root=$root quiet rw" >> /boot/loader/entries/arch.conf
+else
+    echo "options		root=PARTLABEL=$rootlabel quiet rw" >> /boot/loader/entries/arch.conf
 fi
 
 # mkinitcpio creation

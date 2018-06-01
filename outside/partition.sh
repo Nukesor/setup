@@ -13,4 +13,4 @@ sgdisk -n 1:0:400M -t 1:ef00 $hdd
 sgdisk -n 2:0:0 -t 2:8300 $hdd
 
 # Name partitions
-sgdisk -c 1:$bootlabel -c 2:$rootlabel
+sgdisk -c 1:$bootlabel -c 2:$rootlabel $hdd
