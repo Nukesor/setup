@@ -9,7 +9,7 @@ if $crypt; then
     cryptsetup open ${hdd}2 $cryptname
 fi
 
-# Filesystem
+# Create file systems
 echo "y
 "|mkfs.ext4 $root
 echo "y

@@ -3,25 +3,14 @@
 # Getting Variables
 source ./config.sh
 
-# Formatting
-echo "o
-y
-n
+# Apply clean GPT table
+sgdisk -g -o $hdd
 
+# Create EFI boot partitions
+sgdisk -n 1:0:400M -t 1:ef00 $hdd
 
-+400M
-ef00
-n
+# Create root partition
+sgdisk -n 2:0:0 -t 2:fd00 $hdd
 
-
-
-
-c
-1
-$bootlabel
-c
-2
-$label
-w
-y
-"| gdisk $hdd;
+# Name partitions
+sgdisk -c 1:$bootlabel -c 2:$rootlabel

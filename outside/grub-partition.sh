@@ -3,32 +3,17 @@
 # Getting Variables
 source ./config.sh
 
-# Formatting
-echo "o
-y
-n
+# Apply clean GPT table
+sgdisk -g -o $hdd
 
+# Create BIOS boot partitions
+sgdisk -n 1:2048:4095 -t 1:ef02 $hdd
 
-+2M
-ef02
-n
+# Create GRUB boot partition
+sgdisk -n 2:0:200M -t 2:fd00 $hdd
 
+# Create root partition
+sgdisk -n 3:0:0 -t 2:fd00 $hdd
 
-+200M
-
-n
-
-
-
-
-c
-3
-$label
-c
-2
-$bootlabel
-w
-y
-
-"| gdisk $hdd;
-
+# Name partitions
+sgdisk -c 2:$bootlabel -c 3:$rootlabel

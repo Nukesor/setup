@@ -1,11 +1,14 @@
 #!/bin/bash
 
-export hdd=/dev/sda
-export label=root
+pacmanroot=/tmp/root
+pacmancache=/tmp/chache
+
+export hdd=/dev/nume0n1
+export rootlabel=root
 export bootlabel=boot
 export boot=${hdd}1
 export root=${hdd}2
-export crypt=true
+export crypt=false
 
 if $crypt; then
     export cryptname=cryptroot
