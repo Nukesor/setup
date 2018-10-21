@@ -28,6 +28,11 @@ echo $hostname > /etc/hostname
 # Services
 systemctl enable ntpd.service
 
+# Place configs and rules
+cp files/logind.conf /etc/systemd/logind.conf
+cp files/99-lowbat.rules /etc/udev/rules.d/99-lowbat.rules
+cp files/sysctl.conf /etc/sysctl.conf
+
 if $databases; then
     # Mysql setup
     pacman -S mariadb --noconfirm

@@ -18,6 +18,7 @@ composer
 cryptsetup
 cups
 cython
+darkhttpd
 deluge
 devtools
 dfc
@@ -115,6 +116,8 @@ weechat
 wget
 which
 whois
+wireguard-dkms
+wireguard-tools
 wpa_supplicant
 x265
 xclip
