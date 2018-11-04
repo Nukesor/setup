@@ -27,6 +27,9 @@ echo $hostname > /etc/hostname
 
 # Services
 systemctl enable ntpd.service
+systemctl enable tlp.service
+systemctl enable tlp-sleep.service
+systemctl enable fstrim.timer
 
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf

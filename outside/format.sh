@@ -5,8 +5,8 @@ source ./config.sh
 
 if $crypt; then
     # Filesystem
-    cryptsetup -y -v luksFormat ${hdd}2
-    cryptsetup open ${hdd}2 $cryptname
+    cryptsetup -y -v luksFormat ${hdd}p2
+    cryptsetup open ${hdd}p2 $cryptname
 fi
 
 # Create file systems
