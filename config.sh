@@ -17,6 +17,6 @@ if $crypt; then
 fi
 
 # Inside config
-export databases=false
+export databases=true
 export server=false
 export hostname=contamination

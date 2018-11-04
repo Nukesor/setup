@@ -6,4 +6,4 @@ source ./config.sh
 mkdir -p $pacmanroot/var/lib/pacman
 mkdir -p $pacmancache
 
-pacman --cachedir $pacmancache --sysroot $pacmanroot -Sy --noconfirm --needed make dosfstools gptfdisk base-devel
+pacman --cachedir $pacmancache --sysroot $pacmanroot -Sy --noconfirm --needed dosfstools gptfdisk base-devel
