@@ -1,3 +1,4 @@
+#!/bin/bash
 # Mysql post setup
 mysql_secure_installation
 mysql -u root -p -e \
