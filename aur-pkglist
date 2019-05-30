@@ -8,6 +8,7 @@ mkpasswd
 neovim-symlinks
 pgcli
 php-gnupg
+php-language-server
 pueue-git
 py3status
 py3status-modules

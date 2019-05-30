@@ -18,6 +18,7 @@ cmatrix
 colordiff
 composer
 cryptsetup
+ctags
 cups
 darkhttpd
 deluge
@@ -94,10 +95,12 @@ pgadmin4
 poetry
 postgresql
 powertop
+pptpclient
 pulseaudio
 pygmentize
 python
 python-flake8-debugger
+python-language-server
 python-matplotlib
 python-neovim
 python-pip
