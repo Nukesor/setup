@@ -7,6 +7,7 @@ ansible
 arandr
 autopep8
 base-devel
+bash-language-server
 biber
 bind-tools
 boost
@@ -45,6 +46,7 @@ fzf
 gimp
 git
 git-crypt
+git-lfs
 gmpc
 gnu-netcat
 gptfdisk
@@ -139,6 +141,7 @@ unrar
 unzip
 util-linux
 viewnior
+vifm
 virtualbox
 vlc
 weechat
