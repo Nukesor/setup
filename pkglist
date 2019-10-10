@@ -8,7 +8,6 @@ arandr
 autopep8
 base-devel
 bash-language-server
-biber
 bind-tools
 boost
 ccache
@@ -55,6 +54,7 @@ gtk3-print-backends
 gutenprint
 gvfs
 htop
+httpie
 i3lock
 i3-wm
 iftop
@@ -127,11 +127,6 @@ stow
 sudo
 syncthing
 terminus-font
-tesseract
-tesseract-data-eng
-texlive-bin
-texlive-most
-the_silver_searcher
 thunderbird
 tmux
 tokei
