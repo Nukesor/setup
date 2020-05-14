@@ -1,9 +1,5 @@
 [Match]
-Name=en*
+Name=e*
 
 [Network]
-DNS=213.133.98.98
-DNS=213.133.99.99
-DNS=213.133.100.100
-Address=46.4.32.58/26
-Gateway=46.4.32.1
+DHCP=ipv4
