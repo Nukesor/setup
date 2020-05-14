@@ -120,7 +120,6 @@ sed
 smartmontools
 sox
 speedtest-cli
-steam
 stow
 sudo
 syncthing
@@ -147,7 +146,6 @@ weechat
 wget
 which
 whois
-wireguard-arch
 wireguard-tools
 wpa_supplicant
 x265
