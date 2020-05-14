@@ -4,12 +4,12 @@ pacmanroot=/tmp/root
 pacmancache=/tmp/chache
 
 # Basic setup config
-export hdd=/dev/nvme0n1
+export hdd=/dev/sda
 export rootlabel=root
 export bootlabel=boot
-export boot="${hdd}p1"
-export root="${hdd}p2"
-export crypt=false
+export boot="${hdd}1"
+export root="${hdd}2"
+export crypt=true
 
 if $crypt; then
     export cryptname=cryptroot
@@ -19,4 +19,4 @@ fi
 # Inside config
 export databases=true
 export server=false
-export hostname=contamination
+export hostname=bomb

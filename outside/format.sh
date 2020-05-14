@@ -5,13 +5,13 @@ source ./config.sh
 
 if $crypt; then
     # Filesystem
-    cryptsetup -y -v luksFormat ${hdd}p2
-    cryptsetup open ${hdd}p2 $cryptname
+    cryptsetup -y -v luksFormat ${root}
+    cryptsetup open ${root} $cryptname
 fi
 
 # Create file systems
 echo "y
-"|mkfs.ext4 $root
+"|mkfs.btrfs -L root $root
 echo "y
 "|mkfs.msdos -F 32 $boot
 
