@@ -1,6 +1,9 @@
 #!/bin/bash
-
 source ./config.sh
+
+# Install system packages
+pacman -Rns vi --noconfirm
+pacman -Syy --noconfirm --needed $(cat pkglist)
 
 # Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
@@ -34,6 +37,14 @@ systemctl enable fstrim.timer
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf
 
+# Add yay
+su -c "git clone https://aur.archlinux.org/yay.git /tmp/yay" nuke
+su -c "cd /tmp/yay && makepkg" nuke
+pacman -U /tmp/yay/*.tar.xz --noconfirm
+
+# Install aur packages
+yay -Sya --devel --noconfirm --needed $(cat aur-pkglist)
+
 if $databases; then
     # Mysql setup
     pacman -S mariadb --noconfirm
@@ -45,4 +56,24 @@ if $databases; then
 
     systemctl enable mysqld.service
     systemctl enable postgresql.service
+fi
+
+if $server; then
+
+    mkdir -p /root/.ssh
+    chmod 700 /root/.ssh
+
+    mkdir -p /home/nuke/.ssh
+    chmod 700 /home/nuke/.ssh
+
+    cp ./files/keys/nuke.pub /root/.ssh/authorized_keys
+    cp ./files/keys/nuke.pub /home/nuke/.ssh/authorized_keys
+
+    chmod 600 /root/.ssh/authorized_keys
+    chmod 600 /home/nuke/.ssh/authorized_keys
+
+    cp ./files/sshd_config /etc/ssh/sshd_config
+
+    # SSH setup
+    systemctl enable sshd.service
 fi
