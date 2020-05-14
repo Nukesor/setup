@@ -18,7 +18,7 @@ echo "FONT=ter-112n" >> /etc/vconsole.conf
 chsh -s /usr/bin/zsh
 
 # Rust
-rustup default nightly
+rustup default stable
 
 # Docker setup
 tee /etc/modules-load.d/loop.conf <<< "loop"
@@ -33,8 +33,6 @@ systemctl enable fstrim.timer
 
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf
-cp files/99-lowbat.rules /etc/udev/rules.d/99-lowbat.rules
-cp files/sysctl.conf /etc/sysctl.conf
 
 if $databases; then
     # Mysql setup
