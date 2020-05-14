@@ -144,8 +144,6 @@ wpa_supplicant
 x265
 xclip
 xdotool
-xf86-input-keyboard
-xf86-input-mouse
 xf86-input-synaptics
 xorg-apps
 xorg-mkfontscale
