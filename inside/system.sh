@@ -52,7 +52,7 @@ if $databases; then
 
     # Postgresql  setup
     pacman -S postgresql --noconfirm
-    initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+    sudo -u postgres initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
 
     systemctl enable mysqld.service
     systemctl enable postgresql.service

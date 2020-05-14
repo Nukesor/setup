@@ -16,5 +16,5 @@ chsh -s /usr/bin/zsh nuke
 sudo -u nuke rustup default stable
 
 # Set home dir permissions
-chmod 700 /home/nuke
+chmod 750 /home/nuke
 chown nuke:nuke /home/nuke
