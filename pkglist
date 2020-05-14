@@ -46,6 +46,7 @@ gimp
 git
 git-crypt
 gnu-netcat
+go
 gptfdisk
 gsfonts
 gtk3-print-backends
@@ -120,6 +121,7 @@ sed
 smartmontools
 sox
 speedtest-cli
+steam
 stow
 sudo
 syncthing
