@@ -17,6 +17,7 @@ cmake
 cmatrix
 colordiff
 composer
+create_ap
 cryptsetup
 ctags
 cups
@@ -29,6 +30,7 @@ docker
 docker-compose
 dosfstools
 dstat
+dunst
 easy-rsa
 evince
 exfat-utils
@@ -63,11 +65,13 @@ lshw
 lsof
 maim
 make
+massif-visualizer
 mpv
 mtr
 mumble
 namcap
 ncmpcpp
+nemo
 neovim
 net-tools
 nmap
@@ -78,10 +82,10 @@ ntp
 openssh
 openvpn
 p7zip
+pacman-contrib
 parted
 pass
 pavucontrol
-pcmanfm
 pdfgrep
 peek
 perf
@@ -114,11 +118,13 @@ sdl2_image
 sdl2_ttf
 sed
 smartmontools
+sox
 speedtest-cli
 steam
 stow
 sudo
 syncthing
+systemd-swap
 telegram-desktop
 terminus-font
 termite
@@ -132,6 +138,7 @@ ttf-font-awesome
 unrar
 unzip
 util-linux
+valgrind
 viewnior
 vifm
 virtualbox
@@ -140,6 +147,8 @@ weechat
 wget
 which
 whois
+wireguard-arch
+wireguard-tools
 wpa_supplicant
 x265
 xclip
@@ -149,7 +158,6 @@ xorg-apps
 xorg-mkfontscale
 xorg-server
 xorg-xinit
-xterm
 youtube-dl
 zip
 zsh
