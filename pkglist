@@ -17,6 +17,7 @@ cmake
 cmatrix
 colordiff
 composer
+compton
 create_ap
 cryptsetup
 ctags
@@ -24,6 +25,7 @@ cups
 deluge
 devtools
 dfc
+dhcpcd
 diff-so-fancy
 dmenu
 docker
@@ -38,6 +40,7 @@ fasd
 fd
 feh
 firefox
+firejail
 flac
 flake8
 fwupd
@@ -54,6 +57,7 @@ gutenprint
 htop
 httpie
 i3lock
+i3status
 i3-wm
 icedtea-web
 iftop
@@ -97,6 +101,7 @@ pulseaudio-alsa
 py3status
 pygmentize
 python
+python-black
 python-flake8-debugger
 python-language-server
 python-matplotlib
@@ -114,6 +119,7 @@ rsync
 rustup
 screenfetch
 scrot
+sdl2
 sdl2_gfx
 sdl2_image
 sdl2_ttf
@@ -148,6 +154,9 @@ weechat
 wget
 which
 whois
+wine
+wine-gecko
+wine-mono
 wireguard-tools
 wpa_supplicant
 x265
@@ -158,6 +167,7 @@ xorg-apps
 xorg-mkfontscale
 xorg-server
 xorg-xinit
+xterm
 youtube-dl
 zip
 zsh
