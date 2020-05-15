@@ -4,9 +4,9 @@ pacmanroot=/tmp/root
 pacmancache=/tmp/chache
 
 # Basic setup config
-export hdd=/dev/sda
-export rootlabel=root
-export bootlabel=boot
+export hdd=/dev/sdb
+export rootlabel=desktop_root
+export bootlabel=desktop_boot
 export boot_partition="${hdd}1"
 export root_partition="${hdd}2"
 export crypt=true

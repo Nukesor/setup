@@ -5,8 +5,9 @@ source ./config.sh
 
 if $crypt; then
     # Filesystem
-    cryptsetup -y -v luksFormat ${root_partion}
-    cryptsetup open ${root_partion} $cryptname
+    echo $root_partition
+    cryptsetup -y -v luksFormat $root_partition
+    cryptsetup open $root_partition $cryptname
 fi
 
 # Create file systems
@@ -16,7 +17,7 @@ echo "y
 "|mkfs.btrfs -L root $root
 
 #Mounting
-mount $root /mnt
+mount -o compress=zstd -o discard=async $root /mnt
 mkdir -p /mnt/boot
 mount $boot_partition /mnt/boot
 

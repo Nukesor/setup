@@ -1,5 +1,5 @@
 #!/bin/sh
 
 # Basic install
-pacstrap /mnt base
-genfstab -p /mnt >> /mnt/etc/fstab
+pacstrap /mnt base linux linux-firmware
+genfstab -L /mnt >> /mnt/etc/fstab
