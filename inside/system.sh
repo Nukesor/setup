@@ -1,10 +1,6 @@
 #!/bin/bash
 source ./config.sh
 
-# Install system packages
-pacman -Rns vi --noconfirm
-pacman -Syy --noconfirm --needed $(cat pkglist)
-
 # Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
@@ -29,21 +25,13 @@ tee /etc/modules-load.d/loop.conf <<< "loop"
 echo $hostname > /etc/hostname
 
 # Services
+systemctl enable systemd-networkd.service
 systemctl enable ntpd.service
 systemctl enable tlp.service
 systemctl enable tlp-sleep.service
-systemctl enable fstrim.timer
 
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf
-
-# Add yay
-su -c "git clone https://aur.archlinux.org/yay.git /tmp/yay" nuke
-su -c "cd /tmp/yay && makepkg" nuke
-pacman -U /tmp/yay/*.tar.xz --noconfirm
-
-# Install aur packages
-yay -Sya --devel --noconfirm --needed $(cat aur-pkglist)
 
 if $databases; then
     # Mysql setup
