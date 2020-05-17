@@ -8,3 +8,4 @@ chsh -s /usr/bin/zsh nuke
 sudo -u nuke rustup default stable
 
 cargo install cargo-watch cargo-outdated cargo-release cargo-update
+rustup component add rust-src rls
