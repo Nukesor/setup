@@ -1,4 +1,5 @@
 chef-dk
+dust
 miniserve-bin
 neovim-symlinks
 php-gnupg
@@ -9,3 +10,4 @@ python-flake8-docstrings
 rr
 spotify
 whatmp3
+ytop

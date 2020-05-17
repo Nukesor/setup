@@ -11,7 +11,6 @@ bash-language-server
 bind-tools
 boost
 ccache
-chromium
 clang
 cmake
 cmatrix
@@ -35,6 +34,7 @@ dstat
 dunst
 easy-rsa
 evince
+exa
 exfat-utils
 fasd
 fd
@@ -112,10 +112,12 @@ python-pynvim
 python-virtualenv
 python-virtualenvwrapper
 qalculate-gtk
+ranger
 redshift
 ripgrep
 rofi-pass
 rsync
+rust-racer
 rustup
 screenfetch
 scrot
