@@ -22,6 +22,7 @@ cryptsetup
 ctags
 cups
 deluge
+deluge-gtk
 devtools
 dfc
 dhcpcd
@@ -70,6 +71,7 @@ lshw
 lsof
 maim
 make
+man-db
 massif-visualizer
 mpv
 mtr
@@ -160,6 +162,7 @@ whois
 wine
 wine-gecko
 wine-mono
+winetricks
 wireguard-tools
 wpa_supplicant
 x265

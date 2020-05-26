@@ -1,8 +1,7 @@
-chef-dk
 dust
 miniserve-bin
 neovim-symlinks
-php-gnupg
+pgcli
 pueue-git
 py3status-modules
 python-flake8-bugbear
@@ -10,4 +9,3 @@ python-flake8-docstrings
 rr
 spotify
 whatmp3
-ytop
