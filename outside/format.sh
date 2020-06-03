@@ -17,7 +17,7 @@ echo "y
 "|mkfs.btrfs -L root $root
 
 #Mounting
-mount -o compress=zstd -o discard=async $root /mnt
+mount -o compress-force=zstd -o discard=async $root /mnt
 mkdir -p /mnt/boot
 mount $boot_partition /mnt/boot
 

@@ -73,6 +73,7 @@ maim
 make
 man-db
 massif-visualizer
+mediainfo
 mpv
 mtr
 mumble
@@ -86,6 +87,7 @@ nodejs
 npm
 ntfs-3g
 ntp
+obs-studio
 openssh
 openvpn
 p7zip
@@ -119,6 +121,7 @@ redshift
 ripgrep
 rofi-pass
 rsync
+rust-analyzer
 rust-racer
 rustup
 screenfetch
