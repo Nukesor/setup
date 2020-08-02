@@ -8,6 +8,7 @@ arandr
 autopep8
 base-devel
 bash-language-server
+bat
 bind-tools
 boost
 ccache
@@ -163,10 +164,6 @@ weechat
 wget
 which
 whois
-wine
-wine-gecko
-wine-mono
-winetricks
 wireguard-tools
 wpa_supplicant
 x265
