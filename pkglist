@@ -1,6 +1,7 @@
 ack
 acpi
 adobe-source-han-sans-tw-fonts
+aircrack-ng
 alsa-utils
 anki
 ansible
@@ -44,12 +45,13 @@ feh
 firefox
 firejail
 flac
-flake8
+flameshot
 fwupd
 fzf
 gimp
 git
 git-crypt
+git-lfs
 gnu-netcat
 go
 gptfdisk
@@ -58,6 +60,7 @@ gtk3-print-backends
 gutenprint
 htop
 httpie
+hyperfine
 i3lock
 i3status
 i3-wm
@@ -84,7 +87,6 @@ nemo
 neovim
 net-tools
 nmap
-nodejs
 npm
 ntfs-3g
 ntp

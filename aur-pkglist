@@ -2,6 +2,7 @@ dust
 miniserve-bin
 neovim-symlinks
 pgcli
+proximity-sort
 pueue-git
 py3status-modules
 python-flake8-bugbear
