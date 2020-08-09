@@ -110,7 +110,6 @@ pygmentize
 python
 python-black
 python-flake8-debugger
-python-language-server
 python-matplotlib
 python-neovim
 python-pip
