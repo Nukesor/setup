@@ -134,6 +134,7 @@ sdl2_gfx
 sdl2_image
 sdl2_ttf
 sed
+shellcheck
 smartmontools
 sox
 speedtest-cli
@@ -181,5 +182,6 @@ xterm
 yarn
 youtube-dl
 zip
+zola
 zsh
 zsh-completions
