@@ -28,6 +28,7 @@ deluge-gtk
 devtools
 dfc
 dhcpcd
+dialog
 diff-so-fancy
 dmenu
 docker
@@ -67,8 +68,10 @@ i3-wm
 icedtea-web
 iftop
 imagemagick
+intel-media-driver
 keychain
 libreoffice-fresh
+linux-firmware
 linux-headers
 love
 lshw
@@ -106,6 +109,7 @@ postgresql
 powertop
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 py3status
 pygmentize
 python
@@ -173,7 +177,6 @@ x265
 xclip
 xdotool
 xf86-input-synaptics
-xf86-video-intel
 xorg-apps
 xorg-mkfontscale
 xorg-server
