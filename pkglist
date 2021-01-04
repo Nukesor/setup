@@ -31,6 +31,7 @@ dhcpcd
 dialog
 diff-so-fancy
 dmenu
+dnsmasq
 docker
 docker-compose
 dosfstools
@@ -68,8 +69,8 @@ i3-wm
 icedtea-web
 iftop
 imagemagick
-intel-media-driver
 inetutils
+intel-media-driver
 keychain
 libreoffice-fresh
 linux-firmware
@@ -107,6 +108,7 @@ pdfgrep
 peek
 perf
 postgresql
+postgresql-old-upgrade
 powertop
 pulseaudio
 pulseaudio-alsa
@@ -155,6 +157,7 @@ thunderbird
 tmate
 tmux
 tokei
+translate-shell
 tree
 ttf-dejavu
 ttf-font-awesome
@@ -162,6 +165,7 @@ ttf-nerd-fonts-symbols-mono
 unrar
 unzip
 util-linux
+vagrant
 valgrind
 viewnior
 vifm
