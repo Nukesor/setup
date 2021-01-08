@@ -143,6 +143,7 @@ steam
 stow
 sudo
 syncthing
+systemd-resolvconf
 systemd-swap
 telegram-desktop
 terminus-font
