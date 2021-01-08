@@ -8,5 +8,6 @@ pueue-git
 python-flake8-bugbear
 python-flake8-docstrings
 rr
+shellcheck-bin
 spotify
 whatmp3

@@ -26,10 +26,8 @@ deluge-gtk
 devtools
 dfc
 dhcpcd
-dialog
 diff-so-fancy
 dmenu
-dnsmasq
 docker
 docker-compose
 dosfstools
@@ -51,7 +49,6 @@ fzf
 gimp
 git
 git-crypt
-git-lfs
 gnu-netcat
 go
 gptfdisk
@@ -71,6 +68,7 @@ inetutils
 intel-media-driver
 keychain
 libreoffice-fresh
+libva-intel-driver
 linux-firmware
 linux-headers
 love
@@ -79,7 +77,6 @@ lsof
 maim
 make
 man-db
-massif-visualizer
 mediainfo
 miniserve
 mpv
@@ -89,7 +86,6 @@ namcap
 ncmpcpp
 nemo
 neovim
-netctl
 net-tools
 nmap
 npm
@@ -140,7 +136,6 @@ sdl2_gfx
 sdl2_image
 sdl2_ttf
 sed
-shellcheck
 smartmontools
 sox
 speedtest-cli
@@ -171,6 +166,7 @@ viewnior
 vifm
 virtualbox
 vlc
+vulkan-tools
 watchexec
 weechat
 wget
