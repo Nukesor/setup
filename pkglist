@@ -35,13 +35,11 @@ dstat
 dunst
 easy-rsa
 evince
-exa
 exfat-utils
 fasd
 fd
 feh
 firefox
-firejail
 flac
 flameshot
 fwupd
@@ -50,7 +48,6 @@ gimp
 git
 git-crypt
 gnu-netcat
-go
 gptfdisk
 gsfonts
 gtk3-print-backends
@@ -71,7 +68,6 @@ libreoffice-fresh
 libva-intel-driver
 linux-firmware
 linux-headers
-love
 lshw
 lsof
 maim
@@ -108,7 +104,6 @@ powertop
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
-py3status
 pygmentize
 python
 python-black
@@ -127,7 +122,6 @@ ripgrep
 rofi-pass
 rsync
 rust-analyzer
-rust-racer
 rustup
 screenfetch
 scrot
@@ -137,14 +131,12 @@ sdl2_image
 sdl2_ttf
 sed
 smartmontools
-sox
 speedtest-cli
 steam
 stow
 sudo
 syncthing
 systemd-resolvconf
-systemd-swap
 telegram-desktop
 terminus-font
 termite
@@ -183,7 +175,6 @@ xorg-apps
 xorg-mkfontscale
 xorg-server
 xorg-xinit
-xterm
 yarn
 youtube-dl
 zip
