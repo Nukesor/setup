@@ -42,6 +42,7 @@ feh
 firefox
 flac
 flameshot
+freetype2
 fwupd
 fzf
 gimp
@@ -129,8 +130,6 @@ screenfetch
 scrot
 sdl2
 sdl2_gfx
-sdl2_image
-sdl2_ttf
 sed
 smartmontools
 speedtest-cli
