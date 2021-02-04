@@ -111,10 +111,7 @@ pulseaudio-bluetooth
 pygmentize
 python
 python-black
-python-flake8-debugger
-python-matplotlib
 python-neovim
-python-pip
 python-poetry
 python-pynvim
 python-virtualenv
@@ -127,7 +124,6 @@ rofi-pass
 rsync
 rust-analyzer
 rustup
-screenfetch
 scrot
 sdl2
 sdl2_gfx
@@ -163,7 +159,6 @@ virtualbox
 vlc
 vulkan-tools
 watchexec
-weechat
 wget
 which
 whois
