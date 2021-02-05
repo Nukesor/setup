@@ -13,7 +13,7 @@ else
     cp -r files/mkinitcpio.conf.efi /etc/mkinitcpio.conf
 fi
 
-# Set cryptdevice for boot
+# Set kernel parameter
 if $crypt; then
     echo "options		cryptdevice=PARTLABEL=$rootlabel:$cryptname:allow-discards root=$root quiet rw" >> /boot/loader/entries/arch.conf
 else

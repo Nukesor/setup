@@ -26,23 +26,19 @@ echo $hostname > /etc/hostname
 
 # Services
 systemctl enable systemd-networkd.service
+systemctl enable systemd-resolved.service
+systemctl enable iwd.service
 systemctl enable ntpd.service
 systemctl enable tlp.service
-systemctl enable tlp-sleep.service
 
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf
 
 if $databases; then
-    # Mysql setup
-    pacman -S mariadb --noconfirm
-    mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-
     # Postgresql  setup
     pacman -S postgresql --noconfirm
     sudo -u postgres initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
 
-    systemctl enable mysqld.service
     systemctl enable postgresql.service
 fi
 
