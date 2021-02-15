@@ -55,7 +55,6 @@ gsfonts
 gtk3-print-backends
 gutenprint
 htop
-ht-rs
 hyperfine
 i3lock
 i3status
@@ -171,6 +170,7 @@ x265
 xclip
 xdotool
 xf86-input-synaptics
+xh
 xorg-apps
 xorg-mkfontscale
 xorg-server
