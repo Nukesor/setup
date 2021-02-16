@@ -136,6 +136,7 @@ stow
 sudo
 syncthing
 systemd-resolvconf
+taskwarrior-tui
 telegram-desktop
 terminus-font
 termite
