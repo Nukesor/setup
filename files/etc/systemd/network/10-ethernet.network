@@ -1,7 +1,5 @@
 [Match]
-Name=eno1
+Name=e*
 
 [Network]
 DHCP=yes
-DNS=10.0.1.1
-DNS=1.1.1.1
