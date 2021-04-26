@@ -11,3 +11,10 @@ This is a collection of scripts for setting up an Arch Linux instance.
 4. `arch-chroot` into the installation.
 5. Execute either `make efi` or `make grub` depending on the previous choice.
 
+# Cargo 
+cargo install \
+    cargo-watch \
+    cargo-outdated \
+    cargo-release \
+    cargo-update \
+    sqlx-cli

@@ -20,5 +20,4 @@ chsh -s /usr/bin/zsh nuke
 
 # Rustup stuff
 sudo -u nuke rustup default stable
-cargo install cargo-watch cargo-outdated cargo-release cargo-update
 rustup component add rust-src
