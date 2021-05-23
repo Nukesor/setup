@@ -35,6 +35,7 @@ dosfstools
 dstat
 dunst
 easy-rsa
+efibootmgr
 evince
 exfat-utils
 fasd
