@@ -38,6 +38,7 @@ easy-rsa
 efibootmgr
 evince
 exfat-utils
+expect
 fasd
 fd
 feh
