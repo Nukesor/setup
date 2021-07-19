@@ -11,6 +11,7 @@ bash-language-server
 bat
 bind-tools
 boost
+bottom
 broot
 ccache
 clang
