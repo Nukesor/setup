@@ -13,6 +13,10 @@ bind-tools
 boost
 bottom
 broot
+cargo-expand
+cargo-outdated
+cargo-release
+cargo-watch
 ccache
 clang
 cmake
