@@ -13,9 +13,11 @@ bind-tools
 boost
 bottom
 broot
+cargo-bloat
 cargo-expand
 cargo-outdated
 cargo-release
+cargo-udeps
 cargo-watch
 ccache
 clang
@@ -141,6 +143,7 @@ sdl2_gfx
 sed
 smartmontools
 speedtest-cli
+sqlx-cli
 steam
 stow
 sudo
