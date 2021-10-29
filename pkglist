@@ -123,6 +123,7 @@ pulseaudio-bluetooth
 pygmentize
 python
 python-black
+python-llfuse
 python-neovim
 python-poetry
 python-pynvim
