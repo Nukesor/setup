@@ -24,7 +24,6 @@ clang
 cmake
 cmatrix
 colordiff
-composer
 compton
 cryptsetup
 ctags
@@ -178,6 +177,7 @@ virtualbox
 vlc
 vulkan-tools
 watchexec
+web-ext
 wget
 which
 whois
