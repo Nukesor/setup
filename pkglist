@@ -9,6 +9,7 @@ autopep8
 base-devel
 bash-language-server
 bat
+bind
 bind-tools
 boost
 bottom
@@ -73,11 +74,13 @@ iftop
 imagemagick
 inetutils
 intel-media-driver
+iwd
 keychain
 libreoffice-fresh
 libva-intel-driver
 linux-firmware
 linux-headers
+lld
 lshw
 lsof
 maim
@@ -95,6 +98,7 @@ nemo
 neovim
 net-tools
 networkmanager
+nftables
 nmap
 nm-connection-editor
 nodejs
@@ -122,6 +126,7 @@ pulseaudio-bluetooth
 pygmentize
 python
 python-black
+python-isort
 python-llfuse
 python-neovim
 python-poetry
@@ -141,6 +146,7 @@ scrot
 sdl2
 sdl2_gfx
 sed
+signal-desktop
 smartmontools
 speedtest-cli
 sqlx-cli
@@ -166,6 +172,7 @@ tree
 ttf-dejavu
 ttf-font-awesome
 ttf-nerd-fonts-symbols-mono
+typescript
 unrar
 unzip
 util-linux
