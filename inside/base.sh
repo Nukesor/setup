@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 # Copy pacman conf
 cp ./files/etc/pacman.conf /etc/
 

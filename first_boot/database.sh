@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 # Mysql post setup
 mysql_secure_installation
 mysql -u root -p -e \

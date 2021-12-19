@@ -1,14 +1,11 @@
 #!/bin/bash
 
-pacmanroot=/tmp/root
-pacmancache=/tmp/chache
-
 # Basic setup config
-export hdd=/dev/sdb
-export rootlabel=desktop_root
-export bootlabel=desktop_boot
-export boot_partition="${hdd}1"
-export root_partition="${hdd}2"
+export hdd=/dev/nvme0n1
+export rootlabel=root
+export bootlabel=boot
+export boot_partition="${hdd}p1"
+export root_partition="${hdd}p2"
 export crypt=true
 
 if $crypt; then

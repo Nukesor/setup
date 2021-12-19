@@ -1,10 +1,21 @@
 #!/bin/sh
+set -euo pipefail
 
 # Getting Variables
 source ./config.sh
 
+# Make sure both partitions actually exist
+if [[ ! -b "$boot_partition" ]]; then
+    echo "Drive $boot_partition doesn't exist. Aborting."
+    exit 1
+fi
+if [[ ! -b "$root_partition" ]]; then
+    echo "Drive $boot_partition doesn't exist. Aborting."
+    exit 1
+fi
+
 if $crypt; then
-    # Filesystem
+    echo "Encrypting root partition."
     echo $root_partition
     cryptsetup -y -v luksFormat $root_partition
     cryptsetup open $root_partition $cryptname
@@ -17,7 +28,7 @@ echo "y
 "|mkfs.btrfs -L root $root
 
 #Mounting
-mount -o compress-force=zstd -o discard=async $root /mnt
+mount -o compress-force=zstd:3 -o discard=async $root /mnt
 mkdir -p /mnt/boot
 mount $boot_partition /mnt/boot
 

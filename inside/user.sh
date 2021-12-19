@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 source ./config.sh
 
 # Create base user for aur stuff

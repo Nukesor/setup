@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # Getting Variables
 source ./config.sh
