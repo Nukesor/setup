@@ -104,7 +104,6 @@ nodejs
 npm
 ntfs-3g
 ntp
-obs-studio
 openssh
 openvpn
 p7zip
@@ -119,9 +118,6 @@ postgresql
 postgresql-old-upgrade
 powertop
 procs
-pulseaudio
-pulseaudio-alsa
-pulseaudio-bluetooth
 pygmentize
 python
 python-black
@@ -133,7 +129,6 @@ python-pynvim
 python-virtualenv
 python-virtualenvwrapper
 qalculate-gtk
-ranger
 redshift
 ripgrep
 rofi-pass
