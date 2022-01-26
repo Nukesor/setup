@@ -14,7 +14,9 @@ bind-tools
 bottom
 broot
 cargo-bloat
+cargo-edit
 cargo-expand
+cargo-flamegraph
 cargo-outdated
 cargo-release
 cargo-udeps
