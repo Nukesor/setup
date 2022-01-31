@@ -1,6 +1,5 @@
 dust
 elfx86exts
-microsoft-python-language-server-git
 neovim-symlinks
 noto-fonts-main
 nvfancontrol-git
@@ -14,5 +13,3 @@ python-flake8-docstrings
 rr
 shellcheck-bin
 spotify
-ttf-vollkorn-ibx
-whatmp3

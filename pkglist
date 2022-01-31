@@ -1,4 +1,6 @@
 ack
+pipewire-pulse
+tlp
 acpi
 adobe-source-han-sans-tw-fonts
 aircrack-ng
@@ -154,7 +156,6 @@ systemd-resolvconf
 taskwarrior-tui
 telegram-desktop
 terminus-font
-termite
 terraform
 texlive-most
 thunderbird

@@ -2,8 +2,8 @@
 
 # Basic setup config
 export hdd=/dev/nvme0n1
-export rootlabel=root
-export bootlabel=boot
+export rootlabel=bomb_root
+export bootlabel=bomb_boot
 export boot_partition="${hdd}p1"
 export root_partition="${hdd}p2"
 export crypt=true
