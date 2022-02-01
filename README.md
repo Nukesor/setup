@@ -18,3 +18,9 @@ cargo install \
     cargo-release \
     cargo-update \
     sqlx-cli
+
+
+## Nvidia setup
+
+- Install `nvidia` and `nvidia-lts` (if needed)
+- 

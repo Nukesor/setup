@@ -1,6 +1,4 @@
 ack
-pipewire-pulse
-tlp
 acpi
 adobe-source-han-sans-tw-fonts
 aircrack-ng
@@ -38,6 +36,7 @@ devtools
 dfc
 dhcpcd
 diff-so-fancy
+discord
 dmenu
 docker
 docker-compose
@@ -60,6 +59,7 @@ fwupd
 fzf
 gimp
 git
+git-absorb
 git-crypt
 git-lfs
 gnu-netcat
@@ -78,6 +78,7 @@ imagemagick
 inetutils
 intel-media-driver
 iwd
+just
 keychain
 libreoffice-fresh
 libva-intel-driver
@@ -118,6 +119,8 @@ pavucontrol
 pdfgrep
 peek
 perf
+pipewire-alsa
+pipewire-pulse
 postgresql
 postgresql-old-upgrade
 powertop
@@ -160,6 +163,7 @@ terraform
 texlive-most
 thunderbird
 tldr
+tlp
 tmate
 tmux
 tokei
