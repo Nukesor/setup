@@ -6,6 +6,7 @@ alsa-utils
 ansible
 arandr
 autopep8
+bandwhich
 base-devel
 bash-language-server
 bat
@@ -67,6 +68,7 @@ gptfdisk
 gsfonts
 gtk3-print-backends
 gutenprint
+hcloud
 htop
 hyperfine
 i3lock
@@ -92,6 +94,7 @@ make
 man-db
 mediainfo
 miniserve
+mkcert
 mpv
 mtr
 mumble
@@ -143,6 +146,7 @@ rsync
 rubber
 rust-analyzer
 rustup
+schemacrawler
 scrot
 sdl2
 sdl2_gfx

@@ -34,6 +34,7 @@ systemctl enable ntpd.service
 systemctl enable tlp.service
 
 # Symlink resolved.conf
+rm /etc/resolv.conf
 ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 
 # Place configs and rules
