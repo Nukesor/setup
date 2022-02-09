@@ -81,6 +81,7 @@ imagemagick
 inetutils
 intel-media-driver
 iwd
+jdk8-openjdk
 just
 keychain
 libreoffice-fresh
@@ -93,6 +94,7 @@ lsof
 maim
 make
 man-db
+maven
 mediainfo
 miniserve
 mkcert
