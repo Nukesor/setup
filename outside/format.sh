@@ -17,7 +17,7 @@ fi
 if $crypt; then
     echo "Encrypting root partition."
     echo $root_partition
-    cryptsetup -y -v luksFormat $root_partition
+    cryptsetup --verify-passphrase --verbose luksFormat $root_partition
     cryptsetup open $root_partition $cryptname
 fi
 
@@ -25,7 +25,7 @@ fi
 echo "y
 "|mkfs.msdos -F 32 $boot_partition
 echo "y
-"|mkfs.btrfs -L root $root
+"|mkfs.btrfs --label root $root
 
 #Mounting
 mount -o compress-force=zstd:3 -o discard=async $root /mnt
