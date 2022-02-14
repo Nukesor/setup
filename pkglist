@@ -15,6 +15,7 @@ bind
 bind-tools
 bottom
 broot
+btop
 cargo-bloat
 cargo-edit
 cargo-expand
