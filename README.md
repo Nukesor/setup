@@ -24,3 +24,10 @@ cargo install \
 
 - Install `nvidia` and `nvidia-lts` (if needed)
 - 
+
+## Laptop Setup
+
+### Disable Intel Temperature CPU throttling 
+
+- Install `throttled`
+- Start and enable `lonovo_fix.service`

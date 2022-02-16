@@ -30,6 +30,7 @@ cmake
 cmatrix
 colordiff
 compton
+cpupower
 cryptsetup
 ctags
 cups
@@ -129,6 +130,7 @@ peek
 perf
 pipewire-alsa
 pipewire-pulse
+podman
 postgresql
 postgresql-old-upgrade
 powertop
@@ -162,6 +164,7 @@ speedtest-cli
 sqlx-cli
 steam
 stow
+s-tui
 sudo
 syncthing
 systemd-resolvconf
@@ -170,7 +173,9 @@ telegram-desktop
 terminus-font
 terraform
 texlive-most
+throttled
 thunderbird
+time
 tldr
 tlp
 tmate
