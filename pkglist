@@ -40,7 +40,7 @@ devtools
 dfc
 dhcpcd
 diff-so-fancy
-discord
+discord-canary
 dmenu
 docker
 docker-compose
@@ -114,7 +114,6 @@ networkmanager
 nftables
 nmap
 nm-connection-editor
-nodejs
 npm
 ntfs-3g
 ntp
@@ -134,6 +133,7 @@ podman
 postgresql
 postgresql-old-upgrade
 powertop
+prettier
 procs
 pygmentize
 python
@@ -176,7 +176,6 @@ texlive-most
 throttled
 thunderbird
 time
-tldr
 tlp
 tmate
 tmux
