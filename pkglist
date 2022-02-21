@@ -127,6 +127,7 @@ pavucontrol
 pdfgrep
 peek
 perf
+perl-anyevent-i3
 pipewire-alsa
 pipewire-pulse
 podman
