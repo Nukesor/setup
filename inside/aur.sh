@@ -4,7 +4,7 @@ set -euo pipefail
 source ./config.sh
 
 
-if [[ -x "$(paru -V)" ]]; then
+if ! command -v paru &> /dev/null; then
 	# Add paru
 	echo "Clone paru"
 	su nuke -c "cd /tmp && git clone https://aur.archlinux.org/paru-bin.git /tmp/paru"
