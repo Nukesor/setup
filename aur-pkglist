@@ -14,3 +14,4 @@ python-flake8-docstrings
 rr
 shellcheck-bin
 spotify
+zplug

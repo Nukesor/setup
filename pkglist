@@ -163,6 +163,7 @@ signal-desktop
 smartmontools
 speedtest-cli
 sqlx-cli
+starship
 steam
 stow
 s-tui
