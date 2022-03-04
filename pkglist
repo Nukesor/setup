@@ -13,6 +13,10 @@ bash-language-server
 bat
 bind
 bind-tools
+blueman
+bluez
+bluez-libs
+bluez-utils
 bottom
 broot
 btop
@@ -128,6 +132,7 @@ pdfgrep
 peek
 perf
 perl-anyevent-i3
+pipewire
 pipewire-alsa
 pipewire-pulse
 podman
