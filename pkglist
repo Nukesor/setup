@@ -98,6 +98,7 @@ linux-headers
 lld
 lshw
 lsof
+lvm2
 maim
 make
 man-db
