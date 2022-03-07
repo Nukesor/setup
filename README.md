@@ -31,3 +31,10 @@ cargo install \
 
 - Install `throttled`
 - Start and enable `lonovo_fix.service`
+
+
+## Other stuff
+
+Firefox non-fullscreen mode: \
+Type about:config in the address bar, then search for "full-screen-api.ignore-widgets"
+Set that to true.
