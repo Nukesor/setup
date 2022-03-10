@@ -79,7 +79,6 @@ hcloud
 htop
 hyperfine
 i3lock
-i3status
 i3status-rust
 i3-wm
 icedtea-web
@@ -93,6 +92,8 @@ just
 keychain
 libreoffice-fresh
 libva-intel-driver
+lightdm
+lightdm-webkit2-greeter
 linux-firmware
 linux-headers
 lld
