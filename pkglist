@@ -78,9 +78,9 @@ gutenprint
 hcloud
 htop
 hyperfine
+i3-wm
 i3lock
 i3status-rust
-i3-wm
 icedtea-web
 iftop
 imagemagick
@@ -118,8 +118,8 @@ neovim
 net-tools
 networkmanager
 nftables
-nmap
 nm-connection-editor
+nmap
 npm
 ntfs-3g
 ntp
@@ -161,6 +161,7 @@ rsync
 rubber
 rust-analyzer
 rustup
+s-tui
 schemacrawler
 scrot
 sdl2
@@ -173,7 +174,6 @@ sqlx-cli
 starship
 steam
 stow
-s-tui
 sudo
 syncthing
 systemd-resolvconf
