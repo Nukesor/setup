@@ -15,6 +15,9 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
+# X11 keymap
+localectl --no-convert set-x11-keymap us altgr-intl caps:escape,lv3:ralt_switch,altwin:swap_lalt_lwin
+
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 
