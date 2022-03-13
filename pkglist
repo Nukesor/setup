@@ -20,6 +20,7 @@ bluez-utils
 bottom
 broot
 btop
+buildah
 cargo-bloat
 cargo-edit
 cargo-expand
@@ -93,7 +94,6 @@ keychain
 libreoffice-fresh
 libva-intel-driver
 lightdm
-lightdm-webkit2-greeter
 linux-firmware
 linux-headers
 lld
