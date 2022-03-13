@@ -43,6 +43,10 @@ ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf
 
+# Lightdm
+cp -r files/etc/lightdm /etc/lightdm 
+systemctl enable lightdm
+
 if $databases; then
     # Postgresql  setup
     pacman -S postgresql --noconfirm
