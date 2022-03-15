@@ -22,6 +22,7 @@ broot
 btop
 buildah
 cargo-bloat
+cargo-deny
 cargo-edit
 cargo-expand
 cargo-flamegraph
