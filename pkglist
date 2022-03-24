@@ -67,6 +67,7 @@ flameshot
 freetype2
 fwupd
 fzf
+genact
 gimp
 git
 git-absorb
@@ -150,6 +151,7 @@ python-black
 python-isort
 python-llfuse
 python-neovim
+python-pip
 python-poetry
 python-pynvim
 python-virtualenv
