@@ -33,11 +33,7 @@ systemctl enable iwd.service
 systemctl enable ntpd.service
 systemctl enable tlp.service
 
-# Place configs and rules
-cp files/logind.conf /etc/systemd/logind.conf
-
 # Lightdm
-cp -r files/etc/lightdm /etc/lightdm
 systemctl enable lightdm
 
 if $databases; then

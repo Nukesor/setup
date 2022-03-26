@@ -1,8 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
-# Copy pacman conf
-cp ./files/etc/pacman.conf /etc/
+# Basic configs
+cp -r files/etc/* /etc/
+chmod 440 /etc/sudoers
 
 # Install basic packages
 pacman -Syy --noconfirm --needed \
@@ -15,10 +16,6 @@ pacman -Syy --noconfirm --needed \
     rustup \
     docker \
     lvm2
-
-# Basic configs
-cp -r files/etc/* /etc/
-chmod 440 /etc/sudoers
 
 # Set root password
 passwd
