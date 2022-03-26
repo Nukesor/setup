@@ -2,6 +2,7 @@ ack
 acpi
 adobe-source-han-sans-tw-fonts
 aircrack-ng
+alacritty
 alsa-utils
 android-udev
 ansible
@@ -96,6 +97,7 @@ keychain
 libreoffice-fresh
 libva-intel-driver
 lightdm
+lightdm-gtk-greeter
 linux-firmware
 linux-headers
 lld
