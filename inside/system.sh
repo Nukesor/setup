@@ -15,9 +15,6 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
-# X11 keymap
-localectl --no-convert set-x11-keymap us altgr-intl caps:escape,lv3:ralt_switch,altwin:swap_lalt_lwin
-
 # Downloading zsh and setting it as default shell
 chsh -s /usr/bin/zsh
 
@@ -36,15 +33,11 @@ systemctl enable iwd.service
 systemctl enable ntpd.service
 systemctl enable tlp.service
 
-# Symlink resolved.conf
-rm /etc/resolv.conf
-ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-
 # Place configs and rules
 cp files/logind.conf /etc/systemd/logind.conf
 
 # Lightdm
-cp -r files/etc/lightdm /etc/lightdm 
+cp -r files/etc/lightdm /etc/lightdm
 systemctl enable lightdm
 
 if $databases; then

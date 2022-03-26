@@ -14,6 +14,7 @@ pacman -Syy --noconfirm --needed \
     sudo \
     rustup \
     docker \
+    lvm2
 
 # Basic configs
 cp -r files/etc/* /etc/
