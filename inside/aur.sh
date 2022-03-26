@@ -1,8 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-
 source ./config.sh
-
 
 if ! command -v paru &> /dev/null; then
 	# Add paru

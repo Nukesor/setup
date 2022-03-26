@@ -1,7 +1,5 @@
 #!/bin/sh
 set -euo pipefail
-
-# Getting Variables
 source ./config.sh
 
 # Make sure both partitions actually exist

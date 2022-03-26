@@ -1,6 +1,5 @@
 #!/bin/bash
 set -euo pipefail
-
 source ./config.sh
 
 # Install system packages
