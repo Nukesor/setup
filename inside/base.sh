@@ -15,6 +15,7 @@ pacman -Syy --noconfirm --needed \
     sudo \
     rustup \
     docker \
+    podman \
     lvm2
 
 # Set root password
