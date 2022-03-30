@@ -4,6 +4,7 @@ adobe-source-han-sans-tw-fonts
 aircrack-ng
 alacritty
 alsa-utils
+android-tools
 android-udev
 ansible
 arandr
@@ -18,6 +19,7 @@ blueman
 bluez
 bluez-libs
 bluez-utils
+borg
 bottom
 broot
 btop
@@ -124,6 +126,7 @@ networkmanager
 nftables
 nm-connection-editor
 nmap
+nodejs-lts-gallium
 npm
 ntfs-3g
 ntp
