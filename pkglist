@@ -93,6 +93,7 @@ imagemagick
 inetutils
 intel-media-driver
 iwd
+jack
 jdk8-openjdk
 just
 keychain
@@ -112,6 +113,7 @@ man-db
 maven
 mediainfo
 miniserve
+mixxx
 mkcert
 mpv
 mtr
@@ -143,6 +145,7 @@ perf
 perl-anyevent-i3
 pipewire
 pipewire-alsa
+pipewire-jack
 pipewire-pulse
 podman
 postgresql
@@ -176,6 +179,7 @@ scrot
 sdl2
 sdl2_gfx
 sed
+sheldon
 signal-desktop
 smartmontools
 speedtest-cli
