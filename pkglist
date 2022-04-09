@@ -106,6 +106,8 @@ linux-headers
 lld
 lshw
 lsof
+lua-dkjson
+luarocks
 lvm2
 maim
 make
@@ -124,7 +126,6 @@ ncmpcpp
 nemo
 neovim
 net-tools
-networkmanager
 nftables
 nm-connection-editor
 nmap
@@ -226,7 +227,6 @@ wget
 which
 whois
 wireguard-tools
-wpa_supplicant
 x265
 xclip
 xdotool
