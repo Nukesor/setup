@@ -14,7 +14,7 @@ mkdir -p /home/nuke
 chmod 700 /home/nuke
 chown nuke:nuke /home/nuke
 
-usermod -a -G tty,wheel,uucp,http,video,audio,nuke,network,docker nuke
+usermod -a -G tty,wheel,uucp,http,video,audio,nuke,network,adbusers nuke
 
 # Set shell
 chsh -s /usr/bin/zsh nuke
