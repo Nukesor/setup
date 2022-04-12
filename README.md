@@ -28,3 +28,12 @@ cargo install cargo-update
 
 - Install `throttled`
 - Start and enable `lonovo_fix.service`
+
+## Disable auto-lockout after three attempts
+
+Edit the `/etc/security/faillock.conf`.
+
+```
+deny = 6
+root_unlock_time = 60
+```
