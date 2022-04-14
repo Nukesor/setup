@@ -61,7 +61,6 @@ efibootmgr
 evince
 exfat-utils
 expect
-fasd
 fd
 feh
 firefox
@@ -242,5 +241,6 @@ youtube-dl
 yq
 zip
 zola
+zoxide
 zsh
 zsh-completions
