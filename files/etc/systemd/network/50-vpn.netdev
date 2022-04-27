@@ -1,0 +1,18 @@
+[NetDev]
+Name=vpn
+Kind=wireguard
+Description=WireGuard client
+
+[Link]
+# Explicitly lower the MTU prevent package drops.
+MTUBytes=1280
+
+[WireGuard]
+FirewallMark=0x8888
+PrivateKey=PRIVATE_KEY_HERE
+
+[WireGuardPeer]
+PublicKey=PUBLIC_SERVER_KEY_HERE
+AllowedIPs=0.0.0.0/0
+AllowedIPs=::0/0
+Endpoint=46.4.32.58:7000
