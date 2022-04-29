@@ -56,6 +56,7 @@ docker-compose
 dosfstools
 dstat
 dunst
+dust
 easy-rsa
 efibootmgr
 evince
@@ -191,7 +192,6 @@ stow
 sudo
 syncthing
 systemd-resolvconf
-taskwarrior-tui
 telegram-desktop
 terminus-font
 terraform
@@ -214,7 +214,6 @@ typescript
 unrar
 unzip
 util-linux
-vagrant
 valgrind
 viewnior
 vifm
