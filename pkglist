@@ -235,6 +235,7 @@ xorg-apps
 xorg-mkfontscale
 xorg-server
 xorg-xinit
+xss-lock
 yarn
 youtube-dl
 yq
