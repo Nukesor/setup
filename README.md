@@ -37,3 +37,19 @@ Edit the `/etc/security/faillock.conf`.
 deny = 6
 root_unlock_time = 60
 ```
+
+## Autologin
+
+Create autologin group and add user to it.
+```
+groupadd -r autologin
+gpasswd -a nuke autologin
+```
+
+Adjust the `/etc/lightdm/ligthdm.conf`:
+```
+# Take care to adjust the configs in the [Seat:*] block
+[Seat:*]
+# Uncomment the following line and set your username
+autologin-user=nuke
+```
