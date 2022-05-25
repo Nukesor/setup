@@ -4,3 +4,6 @@ Description=Nvidia fan control
 [Service]
 ExecStart=/usr/bin/nvfancontrol
 Restart=always
+
+[Install]
+WantedBy=default.target

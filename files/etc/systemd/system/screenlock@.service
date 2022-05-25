@@ -1,0 +1,14 @@
+[Unit]
+Description=Lock the screen
+Before=sleep.target
+
+[Service]
+User=%i
+Group=%i
+Type=forking
+Environment=DISPLAY=:0
+ExecStartPre=/home/nuke/.cache/cargo/bin/blur 5 /tmp/i3lock-blur.png
+ExecStart=i3lock -e -i /tmp/i3lock-blur.png
+
+[Install]
+WantedBy=sleep.target
