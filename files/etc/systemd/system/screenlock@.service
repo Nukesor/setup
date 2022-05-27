@@ -7,8 +7,7 @@ User=%i
 Group=%i
 Type=forking
 Environment=DISPLAY=:0
-ExecStartPre=/home/%i/.cache/cargo/bin/blur 5 /tmp/i3lock-blur.png
-ExecStart=i3lock -e -i /tmp/i3lock-blur.png
+ExecStart=/home/nuke/.cache/cargo/bin/blur 5 -vvv
 
 [Install]
 WantedBy=sleep.target
