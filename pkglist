@@ -36,6 +36,7 @@ ccache
 clang
 cmake
 cmatrix
+colordiff
 compton
 cpupower
 cryptsetup
@@ -239,5 +240,6 @@ yq
 zip
 zola
 zoxide
+zram-generator
 zsh
 zsh-completions
