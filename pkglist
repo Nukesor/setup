@@ -8,6 +8,7 @@ android-tools
 android-udev
 ansible
 arandr
+astyle
 autopep8
 bandwhich
 base-devel
@@ -179,6 +180,9 @@ schemacrawler
 scrot
 sdl2
 sdl2_gfx
+sdl2_image
+sdl2_ttf
+sdl_image
 sed
 sheldon
 signal-desktop
