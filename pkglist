@@ -92,10 +92,10 @@ imagemagick
 inetutils
 intel-media-driver
 iwd
-jack
 jdk8-openjdk
 just
 keychain
+lame
 lcov
 libreoffice-fresh
 libva-intel-driver
@@ -169,6 +169,7 @@ python-pynvim
 python-virtualenv
 python-virtualenvwrapper
 qalculate-gtk
+ranger
 redshift
 ripgrep
 rofi-pass
