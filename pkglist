@@ -191,6 +191,7 @@ signal-desktop
 smartmontools
 speedtest-cli
 sqlx-cli
+sshfs
 starship
 steam
 stow
