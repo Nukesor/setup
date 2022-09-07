@@ -31,6 +31,7 @@ cargo-expand
 cargo-flamegraph
 cargo-outdated
 cargo-release
+cargo-sort
 cargo-udeps
 cargo-watch
 ccache
