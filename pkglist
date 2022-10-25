@@ -104,6 +104,7 @@ lame
 lcov
 libreoffice-fresh
 libva-intel-driver
+libva-utils
 lightdm
 lightdm-gtk-greeter
 linux-firmware
