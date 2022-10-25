@@ -33,9 +33,6 @@ systemctl enable iwd.service
 systemctl enable ntpd.service
 systemctl enable tlp.service
 
-# Build symlink for resolved
-ln -rsf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-
 # Lightdm
 systemctl enable lightdm
 
