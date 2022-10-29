@@ -30,6 +30,7 @@ cargo-deny
 cargo-edit
 cargo-expand
 cargo-flamegraph
+cargo-nextest
 cargo-outdated
 cargo-release
 cargo-sort
