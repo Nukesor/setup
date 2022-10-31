@@ -14,7 +14,8 @@ mkdir -p /home/nuke
 chmod 700 /home/nuke
 chown nuke:nuke /home/nuke
 
-usermod -a -G tty,wheel,uucp,http,video,audio,nuke,network,adbusers nuke
+groupadd -r autologin
+usermod -a -G tty,wheel,uucp,http,video,audio,nuke,network,adbusers,lp,autologin nuke
 
 # Set shell
 chsh -s /usr/bin/zsh nuke
