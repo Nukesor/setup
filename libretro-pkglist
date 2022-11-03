@@ -4,6 +4,7 @@ libretro-citra
 libretro-desmume
 libretro-dolphin
 libretro-gambatte
+libretro-mgba
 libretro-mupen64plus-next
 libretro-overlays
 libretro-pcsx2
