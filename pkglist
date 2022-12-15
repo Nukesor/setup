@@ -10,7 +10,6 @@ ansible
 arandr
 asp
 astyle
-autopep8
 bandwhich
 base-devel
 bat
@@ -53,7 +52,6 @@ dfc
 dhcpcd
 diff-so-fancy
 difftastic
-discord-canary
 dmenu
 docker
 docker-compose
@@ -167,9 +165,6 @@ prettyping
 procs
 pygmentize
 python
-python-black
-python-isort
-python-llfuse
 python-neovim
 python-pip
 python-poetry
