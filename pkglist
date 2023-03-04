@@ -199,6 +199,7 @@ sshfs
 starship
 steam
 stow
+strace
 sudo
 syncthing
 systemd-resolvconf
