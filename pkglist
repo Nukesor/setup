@@ -167,6 +167,7 @@ prettyping
 procs
 pygmentize
 python
+python-black
 python-neovim
 python-pip
 python-poetry
