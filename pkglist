@@ -81,6 +81,7 @@ git-absorb
 git-crypt
 git-lfs
 gnu-netcat
+go-yq
 gptfdisk
 gsfonts
 gtk3-print-backends
@@ -180,7 +181,6 @@ redshift
 ripgrep
 rofi-pass
 rsync
-rubber
 rust-analyzer
 rustup
 s-tui
@@ -249,7 +249,6 @@ xorg-server
 xorg-xinit
 xss-lock
 yarn
-yq
 yt-dlp
 zip
 zola
