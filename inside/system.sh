@@ -31,7 +31,6 @@ systemctl enable systemd-networkd.service
 systemctl enable systemd-resolved.service
 systemctl enable iwd.service
 systemctl enable ntpd.service
-systemctl enable tlp.service
 
 # Lightdm
 systemctl enable lightdm
