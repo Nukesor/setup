@@ -1,7 +1,6 @@
 ack
 acpi
 adobe-source-han-sans-tw-fonts
-aircrack-ng
 alacritty
 alsa-utils
 android-tools
@@ -9,7 +8,6 @@ android-udev
 ansible
 arandr
 asp
-astyle
 bandwhich
 base-devel
 bat
@@ -21,8 +19,6 @@ bluez
 bluez-libs
 bluez-utils
 borg
-bottom
-broot
 btop
 buildah
 cargo-bloat
@@ -48,12 +44,9 @@ cryptsetup
 ctags
 ctop
 cups
-deluge
 deluge-gtk
-deno
 devtools
 dfc
-dhcpcd
 diff-so-fancy
 difftastic
 dmenu
@@ -64,7 +57,6 @@ dstat
 dunst
 dust
 efibootmgr
-eslint
 evince
 exfat-utils
 expect
@@ -98,16 +90,14 @@ icedtea-web
 iftop
 imagemagick
 inetutils
-intel-media-driver
 iwd
-jdk8-openjdk
+jdk-openjdk
 just
 keychain
 kmon
 lame
 lcov
 libreoffice-fresh
-libva-intel-driver
 libva-utils
 lightdm
 lightdm-gtk-greeter
@@ -116,7 +106,6 @@ linux-headers
 lld
 lshw
 lsof
-lua-dkjson
 luarocks
 lvm2
 maim
@@ -139,9 +128,7 @@ nemo
 neovim
 net-tools
 nftables
-nm-connection-editor
 nmap
-nodejs-lts-gallium
 nomad
 npm
 ntfs-3g
@@ -153,10 +140,10 @@ pacman-contrib
 parted
 pass
 pavucontrol
-pdfgrep
 peek
 perf
 perl-anyevent-i3
+pgcli
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -168,7 +155,6 @@ powertop
 prettier
 prettyping
 procs
-pygmentize
 python
 python-black
 python-neovim
@@ -188,11 +174,6 @@ rustup
 s-tui
 schemacrawler
 scrot
-sdl2
-sdl2_gfx
-sdl2_image
-sdl2_ttf
-sdl_image
 sed
 sheldon
 signal-desktop
