@@ -51,6 +51,7 @@ diff-so-fancy
 difftastic
 dmenu
 docker
+docker-buildx
 docker-compose
 dosfstools
 dstat
