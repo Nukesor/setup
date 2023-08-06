@@ -38,7 +38,6 @@ clang
 cmake
 cmatrix
 colordiff
-compton
 cpupower
 cryptsetup
 ctags
@@ -147,6 +146,7 @@ peek
 perf
 perl-anyevent-i3
 pgcli
+picom
 pipewire
 pipewire-alsa
 pipewire-jack

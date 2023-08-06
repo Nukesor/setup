@@ -4,6 +4,8 @@ set -euo pipefail
 # Getting Variables
 source ./config.sh
 
+echo "Starting efi setup"
+
 # Install microcode updates depending on platform
 if [[ $cpu == "intel" ]]; then
     pacman -S intel-ucode --noconfirm
@@ -42,3 +44,5 @@ fi
 # mkinitcpio creation
 mkinitcpio -p linux
 bootctl --path=/boot install
+
+echo "Finished efi setup"
