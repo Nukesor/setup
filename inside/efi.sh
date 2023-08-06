@@ -12,12 +12,15 @@ if [[ $cpu == "intel" ]]; then
         vulkan-intel \
         lib32-vulkan-intel \
         intel-media-driver
-else
+if [[ $cpu == "amd" ]]; then
     pacman -S amd-ucode --noconfirm
     pacman -S \
         --noconfirm \
         amdvlk \
         lib32-amdvlk
+else
+    echo "Got unknown cpu ${cpu}"
+    exit 1
 fi
 
 bootctl --path=/boot install

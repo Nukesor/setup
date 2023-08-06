@@ -6,13 +6,27 @@ source ./config.sh
 # Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
-# General encoding stuff
-echo "en_US.UTF.8 UTF-8" > /etc/locale.gen
-echo "LANG=en_US.UTF-8" > /etc/locale.conf
-locale-gen
+if [[ $_language == "en" ]]; then
+    # General encoding stuff
+    echo "en_US.UTF.8 UTF-8" > /etc/locale.gen
+    echo "LANG=en_US.UTF-8" > /etc/locale.conf
+    locale-gen
 
-# Keymaps
-echo "KEYMAP=us" > /etc/vconsole.conf
+    # Keymaps
+    echo "KEYMAP=us" > /etc/vconsole.conf
+elif [[ $_language == "en" ]]; then
+    # General encoding stuff
+    echo "de_DE.UTF.8 UTF-8" > /etc/locale.gen
+    echo "LANG=de_DE.UTF-8" > /etc/locale.conf
+    locale-gen
+
+    # Keymaps
+    echo "KEYMAP=de-latin1" > /etc/vconsole.conf
+else
+    echo "Got unknown language ${_language}"
+    exit 1
+fi
+
 echo "FONT=ter-112n" >> /etc/vconsole.conf
 
 # Downloading zsh and setting it as default shell

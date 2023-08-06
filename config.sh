@@ -10,6 +10,8 @@ export crypt=true
 export USERNAME=nuke
 # Choose either intel or amd
 export cpu=intel
+# Choose either de or en
+export _language=en
 
 if $crypt; then
     export cryptname=cryptroot
