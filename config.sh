@@ -7,6 +7,7 @@ export bootlabel=bomb_boot
 export boot_partition="${hdd}p1"
 export root_partition="${hdd}p2"
 export crypt=true
+export USERNAME=nuke
 
 if $crypt; then
     export cryptname=cryptroot
