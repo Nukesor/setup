@@ -3,6 +3,8 @@ set -euo pipefail
 
 source ./config.sh
 
+echo "Starting system setup"
+
 # Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
@@ -14,7 +16,7 @@ if [[ $_language == "en" ]]; then
 
     # Keymaps
     echo "KEYMAP=us" > /etc/vconsole.conf
-elif [[ $_language == "en" ]]; then
+elif [[ $_language == "de" ]]; then
     # General encoding stuff
     echo "de_DE.UTF.8 UTF-8" > /etc/locale.gen
     echo "LANG=de_DE.UTF-8" > /etc/locale.conf
@@ -50,6 +52,7 @@ systemctl enable ntpd.service
 systemctl enable lightdm
 
 if $databases; then
+    echo "Starting database setup"
     # Postgresql  setup
     pacman -S postgresql --noconfirm
     sudo -u postgres initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
@@ -58,6 +61,7 @@ if $databases; then
 fi
 
 if $server; then
+    echo "Starting server setup"
     mkdir -p /root/.ssh
     chmod 700 /root/.ssh
 
@@ -75,3 +79,5 @@ if $server; then
     # SSH setup
     systemctl enable sshd.service
 fi
+
+echo "Finished system setup"
