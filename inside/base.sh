@@ -6,6 +6,7 @@ cp -r files/etc/* /etc/
 chmod 440 /etc/sudoers
 
 # Install basic packages
+echo "Install basic packages"
 pacman -Syy --noconfirm --needed \
     base \
     btrfs-progs \
@@ -19,4 +20,5 @@ pacman -Syy --noconfirm --needed \
     lvm2
 
 # Set root password
+echo "Set root password"
 passwd

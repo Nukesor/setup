@@ -12,7 +12,7 @@ if [[ $cpu == "intel" ]]; then
         vulkan-intel \
         lib32-vulkan-intel \
         intel-media-driver
-if [[ $cpu == "amd" ]]; then
+elif [[ $cpu == "amd" ]]; then
     pacman -S amd-ucode --noconfirm
     pacman -S \
         --noconfirm \
