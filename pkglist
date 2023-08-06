@@ -98,6 +98,7 @@ keychain
 kmon
 lame
 lcov
+lib32-mesa
 libreoffice-fresh
 libva-utils
 lightdm
@@ -115,6 +116,7 @@ man-db
 man-pages
 maven
 mediainfo
+mesa
 miniserve
 mixxx
 mkcert

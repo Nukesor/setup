@@ -8,6 +8,8 @@ export boot_partition="${hdd}p1"
 export root_partition="${hdd}p2"
 export crypt=true
 export USERNAME=nuke
+# Choose either intel or amd
+export cpu=intel
 
 if $crypt; then
     export cryptname=cryptroot

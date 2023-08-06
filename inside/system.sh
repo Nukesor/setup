@@ -44,7 +44,6 @@ if $databases; then
 fi
 
 if $server; then
-
     mkdir -p /root/.ssh
     chmod 700 /root/.ssh
 

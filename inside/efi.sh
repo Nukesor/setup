@@ -4,7 +4,22 @@ set -euo pipefail
 # Getting Variables
 source ./config.sh
 
-pacman -S intel-ucode --noconfirm
+# Install microcode updates depending on platform
+if [[ $cpu == "intel" ]]; then
+    pacman -S intel-ucode --noconfirm
+    pacman -S \
+        --noconfirm \
+        vulkan-intel \
+        lib32-vulkan-intel \
+        intel-media-driver
+else
+    pacman -S amd-ucode --noconfirm
+    pacman -S \
+        --noconfirm \
+        amdvlk \
+        lib32-amdvlk
+fi
+
 bootctl --path=/boot install
 cp -r files/loader /boot/
 
