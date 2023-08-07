@@ -170,6 +170,7 @@ qalculate-gtk
 ranger
 redshift
 ripgrep
+rofi
 rofi-pass
 rsync
 rust-analyzer
