@@ -180,6 +180,7 @@ sed
 sheldon
 signal-desktop
 smartmontools
+sox
 speedtest-cli
 sqlx-cli
 sshfs
@@ -190,6 +191,7 @@ strace
 sudo
 syncthing
 systemd-resolvconf
+tcpdump
 telegram-desktop
 terminus-font
 terraform
