@@ -120,11 +120,13 @@ miniserve
 mixxx
 mkcert
 mosh
+mpd
 mpv
 mtr
 mumble
 musl
 namcap
+ncmpcpp
 nemo
 neovim
 net-tools
@@ -178,7 +180,6 @@ schemacrawler
 scrot
 sed
 sheldon
-signal-desktop
 smartmontools
 sox
 speedtest-cli
