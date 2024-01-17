@@ -173,6 +173,8 @@ ripgrep
 rofi
 rofi-pass
 rsync
+ruff
+ruff-lsp
 rust-analyzer
 rustup
 s-tui
