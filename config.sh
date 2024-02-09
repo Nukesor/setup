@@ -2,14 +2,14 @@
 
 # Basic setup config
 export hdd=/dev/nvme0n1
-export rootlabel=bomb_root
-export bootlabel=bomb_boot
+export rootlabel=root
+export bootlabel=boot
 export boot_partition="${hdd}p1"
 export root_partition="${hdd}p2"
 export crypt=true
 export USERNAME=nuke
 # Choose either intel or amd
-export cpu=intel
+export cpu=amd
 # Choose either de or en
 export _language=en
 
@@ -24,4 +24,4 @@ fi
 # Inside config
 export databases=true
 export server=false
-export hostname=bomb
+export hostname=artifact
