@@ -1,8 +1,8 @@
-#Setup
+# Setup
 
 This is a collection of scripts for setting up an Arch Linux instance.
 
-## Execution Order:
+## Execution Order
 
 1. Select your device and names in config.sh
 2. Make sure there is an gpt on your device
@@ -11,12 +11,6 @@ This is a collection of scripts for setting up an Arch Linux instance.
 5. Execute `inside.sh`.
 6. Boot into installation
 7. Run `first_boot.sh` as your main user.
-
-# Cargo
-
-```
-cargo install cargo-update
-```
 
 ## Nvidia setup
 
@@ -33,21 +27,44 @@ cargo install cargo-update
 
 Edit the `/etc/security/faillock.conf`.
 
-```
+```conf
 deny = 6
 root_unlock_time = 60
 ```
 
-## Autologin
+## Desktop manager
+
+`lightdm` with `lightdm-webkit2-greeter` and **NO** theme.
+
+`/etc/lightdm/lightdm.conf`
+
+```conf
+[Seat:*]
+...
+greeter-session = lightdm-webkit2-greeter
+...
+```
+
+`/etc/lightdm/lightdm-webkit2-greeter.conf`
+
+```txt
+...
+webkit_theme        = THEME HERE
+...
+```
+
+### Autologin
 
 Create autologin group and add user to it.
-```
+
+```sh
 groupadd -r autologin
 gpasswd -a nuke autologin
 ```
 
 Adjust the `/etc/lightdm/ligthdm.conf`:
-```
+
+```conf
 # Take care to adjust the configs in the [Seat:*] block
 [Seat:*]
 # Uncomment the following line and set your username

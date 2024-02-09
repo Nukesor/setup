@@ -1,8 +1,9 @@
 #!/bin/bash
 set -euo pipefail
+source ./config.sh
 
 # Fix any permissions problems that were introduced during setup
-sudo chown $USERNAME:$USERNAME -R $HOME/
+sudo chown $USER:$USER -R $HOME/
 
 mkdir -p $HOME/.config
 mkdir -p $HOME/.cache/fasd
