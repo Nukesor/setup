@@ -39,6 +39,7 @@ cmake
 cmatrix
 colordiff
 cpupower
+cross
 cryptsetup
 ctags
 ctop
@@ -135,6 +136,7 @@ nmap
 nomad
 npm
 ntp
+nvtop
 openssh
 openvpn
 p7zip
