@@ -7,6 +7,7 @@ android-tools
 android-udev
 ansible
 arandr
+atuin
 bandwhich
 base-devel
 bash-language-server
@@ -120,6 +121,7 @@ man-db
 man-pages
 masterpdfeditor-free
 maven
+mdformat
 mediainfo
 memtest86+
 memtest86+-efi
