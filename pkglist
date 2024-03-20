@@ -79,6 +79,7 @@ git
 git-absorb
 git-crypt
 git-lfs
+gnome-keyring
 gnu-netcat
 go-yq
 gptfdisk
@@ -194,6 +195,7 @@ s-tui
 schemacrawler
 scrcpy
 scrot
+seahorse
 sed
 sheldon
 smartmontools
