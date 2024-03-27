@@ -45,8 +45,8 @@ echo $hostname > /etc/hostname
 # Services
 systemctl enable systemd-networkd.service
 systemctl enable systemd-resolved.service
+systemctl enable systemd-timesyncd.service
 systemctl enable iwd.service
-systemctl enable ntpd.service
 
 # Lightdm
 systemctl enable lightdm
