@@ -72,7 +72,6 @@ flac
 flameshot
 freetype2
 fwupd
-fzf
 genact
 gimp
 git
@@ -146,7 +145,6 @@ nmap
 nomad
 npm
 ntfs-3g
-ntp
 nvme-cli
 nvtop
 openssh
