@@ -23,6 +23,13 @@ This is a collection of scripts for setting up an Arch Linux instance.
 - Install `throttled`
 - Start and enable `lonovo_fix.service`
 
+## Nemo
+
+Open folder/file in shell:
+```
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
+```
+
 ## Disable auto-lockout after three attempts
 
 Edit the `/etc/security/faillock.conf`.
