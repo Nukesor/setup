@@ -25,7 +25,6 @@ cargo-bloat
 cargo-deny
 cargo-edit
 cargo-expand
-cargo-flamegraph
 cargo-nextest
 cargo-outdated
 cargo-release
@@ -57,14 +56,12 @@ docker
 docker-buildx
 docker-compose
 dool
-dosfstools
 dua-cli
 dunst
 dust
 efibootmgr
 evince
 exfat-utils
-expect
 fd
 feh
 firefox
@@ -172,7 +169,6 @@ prettier
 prettyping
 procs
 python
-python-black
 python-neovim
 python-pip
 python-poetry
@@ -186,8 +182,6 @@ ripgrep
 rofi
 rofi-pass
 rsync
-ruff
-ruff-lsp
 rust-analyzer
 rustup
 s-tui
@@ -199,7 +193,6 @@ sed
 sheldon
 skim
 smartmontools
-sox
 speedtest-cli
 sqlx-cli
 sshfs
@@ -231,8 +224,6 @@ ttf-dejavu
 ttf-font-awesome
 ttf-input
 typescript
-unrar
-unzip
 util-linux
 valgrind
 viewnior
@@ -252,13 +243,10 @@ xdotool
 xf86-input-synaptics
 xh
 xorg-apps
-xorg-mkfontscale
 xorg-server
-xorg-xinit
 xss-lock
 yarn
 yt-dlp
-zip
 zola
 zoxide
 zram-generator
