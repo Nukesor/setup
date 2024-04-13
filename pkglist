@@ -48,7 +48,6 @@ deluge
 deluge-gtk
 devtools
 dfc
-diff-so-fancy
 difftastic
 discord
 dmenu
@@ -75,6 +74,7 @@ gimp
 git
 git-absorb
 git-crypt
+git-delta
 git-lfs
 gnome-keyring
 gnu-netcat
