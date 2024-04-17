@@ -247,6 +247,7 @@ xorg-server
 xss-lock
 yarn
 yt-dlp
+zellij
 zola
 zoxide
 zram-generator
