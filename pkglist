@@ -6,6 +6,7 @@ alsa-utils
 android-tools
 android-udev
 ansible
+ansible-language-server
 arandr
 atuin
 bandwhich
@@ -112,6 +113,7 @@ linux-headers
 lld
 lshw
 lsof
+lua-language-server
 lvm2
 maim
 make
@@ -182,6 +184,7 @@ ripgrep
 rofi
 rofi-pass
 rsync
+ruff
 rust-analyzer
 rustup
 s-tui
@@ -203,6 +206,7 @@ strace
 sudo
 syncthing
 systemd-resolvconf
+tailwindcss-language-server
 tcpdump
 tectonic
 telegram-desktop
@@ -224,6 +228,7 @@ ttf-dejavu
 ttf-font-awesome
 ttf-input
 typescript
+typescript-language-server
 util-linux
 valgrind
 viewnior
