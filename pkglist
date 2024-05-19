@@ -224,6 +224,7 @@ toml-bombadil
 traceroute
 translate-shell
 tree
+tree-sitter-cli
 ttf-dejavu
 ttf-font-awesome
 ttf-input
