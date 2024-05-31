@@ -1,10 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-# Basic configs
-cp -r files/etc/* /etc/
-chmod 440 /etc/sudoers
-
 # Install basic packages
 echo "Install basic packages"
 pacman -Syy --noconfirm --needed \

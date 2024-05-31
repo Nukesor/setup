@@ -10,7 +10,8 @@ useradd -d "/home/${USERNAME}" -g $USERNAME $USERNAME
 # Set user password
 passwd $USERNAME
 
-cp files/etc/sudoers /etc/sudoers
+cp files/sudoers /etc/sudoers
+chmod 440 /etc/sudoers
 
 # Create base user for aur stuff
 # Create home dir
