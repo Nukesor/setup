@@ -5,6 +5,10 @@ source ./config.sh
 
 echo "Starting system setup"
 
+# TODO: This stuff needs to be called before the bois setup.
+# <------------------------ From here
+echo $hostname >/etc/hostname
+
 # Localtime
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
@@ -31,7 +35,7 @@ fi
 
 echo "FONT=ter-112n" >>/etc/vconsole.conf
 
-# Downloading zsh and setting it as default shell
+# Setting zsh as as default shell
 chsh -s /usr/bin/zsh
 
 # Rust
@@ -39,10 +43,11 @@ rustup default stable
 
 # Docker setup
 tee /etc/modules-load.d/loop.conf <<<"loop"
-
-echo $hostname >/etc/hostname
+# <------------------------ To here
 
 # Services
+# TODO: This will be handled by bois at some boint
+# <------------------------ From here
 systemctl enable systemd-networkd.service
 systemctl enable systemd-resolved.service
 systemctl enable systemd-timesyncd.service
@@ -59,5 +64,6 @@ if $databases; then
 
     systemctl enable postgresql.service
 fi
+# <------------------------ To here
 
 echo "Finished system setup"

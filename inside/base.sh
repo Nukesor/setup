@@ -11,7 +11,8 @@ pacman -Syy --noconfirm --needed \
     linux-firmware \
     sudo \
     rustup \
-    podman
+    podman \
+    zsh
 
 # Set root password
 echo "Set root password"
