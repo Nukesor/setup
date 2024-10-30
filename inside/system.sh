@@ -33,8 +33,6 @@ else
     exit 1
 fi
 
-echo "FONT=ter-112n" >>/etc/vconsole.conf
-
 # Setting zsh as as default shell
 chsh -s /usr/bin/zsh
 
